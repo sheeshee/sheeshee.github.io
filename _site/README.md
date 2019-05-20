@@ -1,6 +1,11 @@
-# Code Better #
+# Sam's Notes #
 
-This is an ongoing project for me to go through the excercise of pursuing, organising and recording new knowledge and ressources I gather for the various topics I find interesting - topics specifically related to writing code and developing software projects. 
+This is an ongoing project for me with two principal objectives:
+	* to collect learning ressources I find on various topics in one place; and
+	* to document my own projects and create an online portfolio demonstrating my skills
+
+
+## Objective 1: Be a starting point for X ##
 
 There are already wonderful and well written ressources out there for almost every topic, so the main function of this repo is to collect these together according to theme.
 
@@ -14,6 +19,21 @@ The topics I plan on investigating will be (in vaguely this order):
 6. How to work with Data (w/ APIs and Databases)
 7. How to use Machine Learning, out of the box
 8. How to develop and build a simulation/model
+
+## Objective 2: Be an online portfolio ##
+
+Each project I work in should have its own page explaining the initial problem, how I solved it and the ressources I used to do so.
+
+It should then link to my corresponding code repository and list other interesting ressources.
+
+Projects on my to-do list at the moment are the following:
+1. Cryptopals - As far as I can go!
+2. Kaggle's Digit Recognition (and other Kaggle challenges)
+3. My Smart Home Assistant
+4. Robotic Claw with Computer Vision
+5. Musical Tesla Coil
+
+## Extra notes and bits ##
 
 Here are the topics I'm interested in (with a bit more detail)
 

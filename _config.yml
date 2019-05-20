@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Code Better
-linkedin: linkedin.com/in/samuel-sheehy
+title: Sam's Notes
+email: samuelsheehy95@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site is currently being built. It will be a collection of tips, lessons and
-  and ressources for developers and programmers wanting to develop their skills!
+  This site is currently being built. It will be both a collection of useful information
+  and an online portfolio of some of my projects
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sheeshee
