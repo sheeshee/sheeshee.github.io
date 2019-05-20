@@ -18,7 +18,7 @@ linkedin: linkedin.com/in/samuel-sheehy
 description: >- # this means to ignore newlines until "baseurl:"
   This site is currently being built. It will be a collection of tips, lessons and
   and ressources for developers and programmers wanting to develop their skills!
-baseurl: "/code-better" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sheeshee
 linkedin_username: samuel-sheehy
