@@ -10,8 +10,8 @@ My experience with coding started in my last few years of school when my curiosi
 
 Since then I pursued a degree in Mechanical Engineering and graduated from the Univeristy of Southampton in 2017. While there I did a whole lot more to do with Arduinos, but also discovered Raspberry Pi's, MATLAB, Python and C.
 
-After graduating in 2017, I was offered a job in EDF Energy's R&D team with the chance to study part-time. And here I am, today!
+After graduating in 2017, I accepted a job offer in EDF Energy's R&D team with the chance to study part-time. And here I am, today!
 
 Hopefully, you'll find this collection of information useful!
 
-:balloon:
+:cookie:
