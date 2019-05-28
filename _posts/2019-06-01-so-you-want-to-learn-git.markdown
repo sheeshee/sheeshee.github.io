@@ -27,7 +27,7 @@ _Then what?_ After you've installed Git, you can work your way through the cours
 
 I recommend looking on Atlassian's Git tutorial for [an explanation of _branches_][atlassian-branches] as well (Atlassian owns a competitor product to GitHub called Bitbucket).
 
-_This is so much to keep track of..._ It definitely is. If you forget how to do something, you can always simply check on the internet or keep a cheetsheat at hand for the most common commands. I like Atlassian's which you can find [here][atlassian-cheatsheet].
+_This is so much to keep track of..._ It definitely is. If you forget how to do something, you can always simply check on the internet or keep a cheatsheet at hand for the most common commands. I like Atlassian's which you can find [here][atlassian-cheatsheet].
 
 _Am I done?_ Once you've gone through these you'll be have seen the majority of what you need to be comfortable with Git! Then it's simply a matter of practice!
 
