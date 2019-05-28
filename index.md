@@ -6,9 +6,6 @@ layout: home
 title: Home
 ---
 
-I am currently writing up my first post - it will be a collection
-of ressources for people wanting to learn Git!
-
 <!-- 
 ## Let's Code Better!
 Welcome to my blog. Checkout below for some quick links :train:
