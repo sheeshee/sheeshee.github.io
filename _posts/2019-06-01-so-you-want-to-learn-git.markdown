@@ -7,7 +7,7 @@ category: learn
 
 ## What? Why? How?
 
-**What:** Git is an open-source, widely used [Version Control System][vcs-def]. Much like any VCS, Git has its two primary uses which are (a) to allow teams to work on the same codebase at the same time and (b) to save in permanent memory the codebase at different points in its development. Check out [this link][vcs-git] for more info on what Git is exactly.
+**What:** Git is an open-source, widely used [Version Control System (VCS)][vcs-def]. Much like any VCS, Git has its two primary uses which are _(a)_ to allow teams to work on the same codebase at the same time and _(b)_ to save in permanent memory the codebase at different points in its development. Check out [this link][vcs-git] for more info on what Git is exactly.
 
 **Why:** But why learn Git in particular? There are other options of VCS that you could use: like [Mercurial][vcs-mercurial] or [Sub-Version](https://subversion.apache.org/), but Git is by far the most popular. Some claim Mercurial is more accessible and extendable (say if you wanted to tweak a feature to better suite your style), but the main principals are the same as in Git. Nonetheless, because Git is the most popular that means there will be much more help available online and many open-source projects will be using it, so I heavily recommend starting with Git. Check [this page][vcs-compare] out for a bit more info on how the existing VCS differ.
 
@@ -16,10 +16,10 @@ category: learn
 
 ## Learn the basics
 
-_What's the difference between Git and GitHub?_ A quick thing I'd like to clear up is the subtle difference between Git and GutHub because I've noticed that there can be some confusion in how they differ. **Git** is the **software** that you install on your computer and that lets you work with other people who are using the same software on their own machines. Git is free and open-source and is what runs the _pushing_, _pulling_, _branching_, etc. **GitHub** is an online service that hosts _projects that **use** Git_. It is a popular host for open-source projects (since it lets you host these for free), and it even adds lots of helpful features for managing teams of developers and product development.
+_What's the difference between Git and GitHub?_ A quick thing I'd like to clear up is the subtle difference between Git and GitHub because I've noticed that there can be some confusion in how they differ. **Git** is the **software** that you install on your computer and that lets you work with other people who are using the same software on their own machines. Git is free and open-source and is what runs the _pushing_, _pulling_, _branching_, etc. **GitHub** is an online service that hosts _projects that **use** Git_. It is a popular host for open-source projects (since it lets you host these for free), and it even adds lots of helpful features for managing teams of developers and product development.
 
 _Ok, so how do I start?_ The first thing you'll want to do is install Git on your computer:
-* **Windows**: Install _Get for Windows_ on your machine [here](https://gitforwindows.org/)
+* **Windows**: Install _Git for Windows_ on your machine [here](https://gitforwindows.org/)
 * **MacS**: Download and run the most recent installer from [this list](https://sourceforge.net/projects/git-osx-installer/files/)
 * **Linux:** Use on of [these commands](https://git-scm.com/download/linux) in your terminal.
 
