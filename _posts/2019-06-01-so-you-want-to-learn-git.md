@@ -47,19 +47,19 @@ Another great tool, which is a great way to experiment with some Git commands, i
 
 ### A few more commands
 
-Git allows you to be very flexible in how you manage your repository and commit history. There are lots of little commands that could help you acheive whatever contrived objective you may have, but in the day-to-day you'll need a limited set. I find the following ones useful now and then and they can be handy to keep in your toolbox:
+Git allows you to be very flexible in how you manage your repository and commit history. There are lots of little commands that could help you achieve whatever contrived objective you may have, but in the day-to-day you'll need a limited set. I find the following ones useful now and then and they can be handy to keep in your toolbox:
 * `git stash`: Stashing is a bit like the copy-past of Git. [See here][git-stash] for an explanation.
 * `git reset` and `git revert`: Resetting and reverting have similar uses in that they can undo commits, but each have specific contexts in which they should be applied. [See here][git-reset] for a comparison between the two.
-* `git rebase`: Rebasing, similar to merging, is another (more advanced) way to intergrate commits into a repository's history. See [this blog post for a brief introduction][git-tower-rebase], then read [Git website's article on rebasing][git-rebase] for a much more in-depth discussion. The `rebase` command also has an _interactive mode_ which is very helpful in cleaning up your commit history: [see here][git-rebase-interact] for an explanation.
+* `git rebase`: Rebasing, similar to merging, is another (more advanced) way to integrate commits into a repository's history. See [this blog post for a brief introduction][git-tower-rebase], then read [Git website's article on rebasing][git-rebase] for a much more in-depth discussion. The `rebase` command also has an _interactive mode_ which is very helpful in cleaning up your commit history: [see here][git-rebase-interact] for an explanation.
 
 
 ### Collaborating
 
 One of the beauties of Git of course is how it allows many developers to work on a single project. The two elements you'll need to do this are **Pull Requests** and **Forking**.
 
-* **Pull Requests** are a key rool _and_ process in team software development. They are a formal notification that a feature or bug-fix is ready for intergration into the _master_ branch. Atlassian gives [a nice explanation][atlassian-pull-request].
+* **Pull Requests** are a key tool _and_ process in team software development. They are a formal notification that a feature or bug-fix is ready for integration into the _master_ branch. Atlassian gives [a nice explanation][atlassian-pull-request].
 
-* To **Fork** a repository is to create your own copy of someone else's repository. This lets you make changes to a project where you might not already have editting rights. Later on, if you'd like, these changes can be turned into a pull-request for the original project. See [GitHub's introduction on Forking][github-forking] to get started.
+* To **Fork** a repository is to create your own copy of someone else's repository. This lets you make changes to a project where you might not already have editing rights. Later on, if you'd like, these changes can be turned into a pull-request for the original project. See [GitHub's introduction on Forking][github-forking] to get started.
 
 
 ### Best Practice
