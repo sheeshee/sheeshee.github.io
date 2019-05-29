@@ -4,6 +4,10 @@ title: So You Want to Learn Git
 date: 2019-05-28 08:00:00 +0100
 category: learn
 ---
+<!--
+To add:
+* Git credentials cache: https://help.github.com/en/articles/caching-your-github-password-in-git
+	-->
 
 ## What? Why? How?
 
