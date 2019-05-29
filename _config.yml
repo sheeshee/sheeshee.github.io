@@ -29,6 +29,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-redirect-from
 
 author: Samuel Sheehy
 

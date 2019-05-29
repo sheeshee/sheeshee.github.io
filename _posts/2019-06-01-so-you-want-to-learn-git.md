@@ -2,6 +2,7 @@
 layout: post
 title: So You Want to Learn Git
 date: 2019-05-28 08:00:00 +0100
+redirect_from: learn/git
 category: learn
 ---
 <!--
