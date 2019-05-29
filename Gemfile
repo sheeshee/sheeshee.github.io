@@ -24,6 +24,8 @@ group :jekyll_plugins do
 	gem 'jemoji'
 	# Allow redirects from shorter URLs
 	gem 'jekyll-redirect-from'
+	# Enable Google Analytics tracking
+	gem 'jekyll-analytics'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

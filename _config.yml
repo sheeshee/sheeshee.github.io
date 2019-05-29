@@ -30,8 +30,14 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-redirect-from
+  - jekyll-analytics
 
 author: Samuel Sheehy
+
+jekyll-analytics:
+  GoogleAnalytics:
+    id: UA-141010640-1 # Created on Google Analytics platform
+    anonymizeIp: false # Optional - set to true for anonymized tracking
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
