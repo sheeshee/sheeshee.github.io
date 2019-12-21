@@ -153,6 +153,11 @@ Unfortunately, the above expression of the SVM is not practical to solve in its
 current form. Thankfully, a well-studied methodology exists to make its
 resolution more efficient. This is to pose the problem in its Dual Lagrangian form.
 
+_dual lagrangian equation_
+
+Where
+_\alpha_
+is 
 
 
 
