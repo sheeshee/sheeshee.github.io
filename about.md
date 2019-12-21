@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+order: 2
 ---
 
 I am research analyst currently doing a part-time postgraduate degree in Scientific Computing at UCL. I started this site to collect in a nicely formatted way different things I learn and do with regards to coding, computational science, and other engineering things.
