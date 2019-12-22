@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I Made a Support Vector Machine!
+title: Make a Support Vector Machine
 date: 2018-07-29 08:00:00 +0100
 category: projects
 ---
@@ -133,7 +133,9 @@ w
 and
 x
 can have any number of terms and the mathematics used to derive these equations
-remains unchanged. In 2-D, the division boundary is a line; in 3-D it will be a flat plane; with more than three dimensions, it becomes a _hyperplane_. As a more general term, the boundary is referred to as the decision surface.
+remains unchanged. In 2-D, the division boundary is a line; in 3-D it will be a 
+flat plane; with more than three dimensions, it becomes a _hyperplane_. As a 
+more general term, the boundary is referred to as the decision surface.
 
 Bringing all these points together, lets us express the essence of a Support Vector Machine algorithm, which is to find the terms
 w
@@ -148,32 +150,120 @@ b
 defined subsequently from the original equation.
 
 ### The Dual Problem
-
 Unfortunately, the above expression of the SVM is not practical to solve in its
 current form. Thankfully, a well-studied methodology exists to make its
-resolution more efficient. This is to pose the problem in its Dual Lagrangian form.
+resolution more efficient. This is to pose the problem in its Dual Lagrangian 
+form. First we express it as the following
 
-_dual lagrangian equation_
+_orimal lagrangian equation_
 
 Where
 _\alpha_
-is 
+is a vector of coefficients determining the contribution of each point.
+In this formulation, we are solving a standard minimisation problem,
+as opposed to a constrained one - much more straightforward!
+
+This equation is in terms of
+w
+and
+b
+, and because it is quadratic, hence convex, this means that its minimum is
+achieved when both its derivatives in terms of
+w
+and
+b
+are zero. This allows us to make these conclusions:
+
+...derivative w.r.t w => w = ....
+
+...derivative w.r.t b => sum alpha*y = 0...
+
+Substituting these into the previous equation gives us the problem's dual form,
+which is fully dependent on alpha, and according to the Dual Lagrangian method,
+we will want to maximise to ensure the conditions are taken into account.
+
+... dual lagrangian formulation...
+
+### Soft Margins
+In the above formulation, the SVM will strictly divide the two sets of points,
+but sometimes this is undesirable or even impossible. Consider the case where 
+the points from both groups overlap somewhat. In this case the SVM decision
+boundary would be skewed away from a more sensible value. This can happen when 
+a dataset has extreme outlier values or even misclassified data.
+
+To compensate for more flexible or "soft" divisions, we introduce a slack
+variable into the original problem, where the points from groups _X_ and _O_ now
+satisfy this inequality:
+
+...inequalities with slack variable...
+
+Following the same logic as before, we derive the following expression where we
+also introduce a term _C_ to regulate the weight of these slack variables:
+
+...SVM formulation with slack variable...
+
+This will give the new primal problem formulation with a new penalty weight
+parameter
+\mu
+:
+
+...Primal Problem with slack variable...
+
+Differentiating with respect to
+w
+,
+b
+, and
+zeta
+gives the same two partial derivatives as above as well as the following:
+
+...partial derivatev with eta...
+
+which lets us conclude that
+C = \alpha + \mu
+.
+
+Since
+\mu
+is positinve then we can deduce a new constraint on
+\alpha
+which is that
+\alpha < C
+.
+
+This leads to the dual lagrangian formulation of the problem, which is almost
+identical to before, except for the new constraint on \alpha.
+
+...Dual Lagrangian with slack...
+
+### The Solution
+When we find the optimal solution of \alphas for the Dual Lagrangian, we find
+that many of the \alphas will be zero or ones, and a few will be between these
+values.
+
+These alphas can be put into the relation
+...w expression in terms of alpha...
+to find
+w
+, and
+b
+can be found by taking the line equation from before, applying it to every point
+and averaging the results, such that:
+
+...expression for b...
+
+## Implementing the SVM in Python
+### Approach
+The format of Dual Lagrangian problems lends itself well to convex
+solvers. In my implementation I use the ```cvxopt``` library to find the
+\alphas
+of the maximisation problem, but this is not the most efficient method.
+
+In ..., ... invented the SMO algorithm that quickly became the go-to way of
+implementing SVMs, but it also takes a bit more effort to create. As such, I use
+the ```cvxopt``` to find the alphas.
+
+### Matrix Formulation
 
 
-
-## My SVM module
-Organisation of modules,
-
-Solver I use CVXOPT
-
-Swap out solvers: LIBSVM, SK-LEARN, custom SMO
-
-## Performance Evaluation
-Speed
-Accuracy in classification
-Note changes in digits when changing scale of data
-
-## Room for Improvement
-Implement an SMO
-Scaling?
-Implementing a solver in python
+### Comparison to sk-learn
