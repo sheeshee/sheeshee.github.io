@@ -1,7 +1,9 @@
 ---
 title: This Website
 platform: GitHub
-tags: Jekyll, Bootstrap
+tags: 
+    - Jekyll
+    - Bootstrap
 link: https://github.com/sheeshee/sheeshee.github.io/
 ---
 

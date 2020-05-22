@@ -1,7 +1,10 @@
 ---
 title: Learn MNIST with Fastai
 platform: Kaggle
-tags: Computer Vision, AI, Deep Learning
+tags:
+    - Computer Vision
+    - AI
+    - Deep Learning
 link: https://www.kaggle.com/samslondon/learn-mnist-with-fastai/
 ---
 
