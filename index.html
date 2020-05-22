@@ -19,6 +19,14 @@ title: Sam Sheehy
     <p>{{ item.date | date: "%d %B %Y" }}</p>
     <p>{{ item.content }}</p>
 
+    <div class="tag-container">
+    {% for tag in item.tags %}
+    
+    <span class="tag">{{ tag }}</span>
+
+    {% endfor %}
+    </div>
+
 
   {% endfor %}
 

@@ -1,3 +1,21 @@
+@import "bootstrap/bootstrap";
+
+
 .top-buffer{
     margin-top: 30px;
+}
+
+.tag {
+    color: $primary;
+    border: 1px solid $primary;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 6px;
+}
+
+.tag-container {
+    margin-bottom: 20px;
+    
 }
