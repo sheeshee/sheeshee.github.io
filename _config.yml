@@ -1,18 +1,13 @@
 collections:
-    authors:
-        output: true
+    cards:
+
   
 defaults:
     - scope:
         path: ""
-        type: "authors"
+        type: "cards"
       values:
-        layout: "author"
-    - scope:
-        path: ""
-        type: "posts"
-      values:
-        layout: "post"
+        layout: "card"
     - scope:
         path: ""
       values:

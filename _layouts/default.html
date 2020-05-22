@@ -1,14 +1,13 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% feed_meta %}
-    {% seo %}
-</head>
+  {% include head.html %}
   <body>
+    {% include scripts.html %}
     {% include navigation.html %}
+    <div class="container">
+      <div class="row top-buffer">
     {{ content }}
+    </div>
+    </div>
   </body>
 </html>

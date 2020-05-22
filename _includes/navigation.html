@@ -1,6 +1,19 @@
-<nav>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+<a class="navbar-brand" href="#">{{ site.data.me.name }}</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarText">
+  <ul class="navbar-nav mr-auto">
     {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+    {% if page.url == item.link %}
+    <li  class="nav-item active" > 
+    {% else %}
+    <li  class="nav-item" > 
+    {% endif %}
+      <a class="nav-link" href="{{ item.link }}">{{ item.name }} <span class="sr-only">(current)</span></a>
+    </li>
     {% endfor %}
-  </nav>
-  
+  </ul>
+</div>
+</nav>
