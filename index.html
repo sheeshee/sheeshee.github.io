@@ -2,8 +2,6 @@
 layout: default
 title: Sam Sheehy
 ---
-
-
 <div class="col-sm-4 justify-content-center text-center">
   <img src="assets/me.jpg" class="img-fluid" alt="this is what i look like">
   <h1 class="text-primary"> {{ site.data.me.name }}</h1>
@@ -12,23 +10,21 @@ title: Sam Sheehy
 </div>
 
 <div class="col-sm-8">
-  <h1>Work Dossier</h1>
-  {% for item in site.cards reversed %}
+  <div class="row">
+    <div class="col">
+    <h1>Work Dossier</h1>
+  </div>
+  </div>
+  <div class="row ">
+    <div class="h-scroll d-flex flex-wrap">
+      {% for item in site.cards reversed %}
 
-    <h3><a href="{{ item.link }}">{{ item.title }}</a></h3>
-    <p>{{ item.date | date: "%d %B %Y" }}</p>
-    <p>{{ item.content }}</p>
+        {% include card.html %}
 
-    <div class="tag-container">
-    {% for tag in item.tags %}
-    
-    <span class="tag">{{ tag }}</span>
-
-    {% endfor %}
+      {% endfor %}
     </div>
-
-
-  {% endfor %}
+  </div>
+  
 
 </div>
 

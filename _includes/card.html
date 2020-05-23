@@ -1,0 +1,16 @@
+<div class="col-lg-6">
+<div class="card mb-1 p-0" >
+  <div class="card-body">
+    <h3 class="card-title"><a href="{{ item.link }}">{{ item.title }}</a></h3>
+    <h5 class="card-subtitle">{{ item.date | date: "%d %B %Y" }}</h5>
+    <p class="card-text">
+    {{ item.content }}
+    </p>
+    <div class="tag-container">
+      {% for tag in item.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
