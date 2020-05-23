@@ -2,7 +2,11 @@
 <div class="card mb-1 p-0" >
   <div class="card-body">
     <h3 class="card-title"><a href="{{ item.link }}">{{ item.title }}</a></h3>
-    <h5 class="card-subtitle">{{ item.date | date: "%d %B %Y" }}</h5>
+    <div class="card-subtitle">
+      <span class="card-date">{{ item.date | date: "%d %B %Y" }}</span>
+      <span class="card-date-platform-separator">-</span>
+      <span class="card-platform">{{ item.platform | upcase }}</span>
+    </div>
     <p class="card-text">
     {{ item.content }}
     </p>

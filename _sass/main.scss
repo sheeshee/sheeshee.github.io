@@ -28,3 +28,18 @@
     // overflow: hidden;
 }
 
+.card-date{
+    color: $secondary;
+    font-weight: 500;
+}
+
+.card-date-platform-separator{
+    color: $secondary;
+    margin-left: 7px;
+    margin-right: 7px
+}
+
+.card-platform {
+    color: $secondary;
+    font-weight: 500;
+}
