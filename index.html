@@ -1,35 +1,16 @@
 ---
 layout: default
 title: Sam Sheehy
+heading: Work Dossier
 ---
 
-<div class="row top-of-page">
-  <div class="col-sm-4"></div>
-  <div class="col-sm-8">
-    <h1>Work Dossier</h1>
-  </div>
-</div>
 
-<div class="row">
-<div class="col-sm-4 justify-content-center text-center">
-  <img src="assets/me.jpg" class="img-fluid" alt="this is what i look like">
-  <h1 class="text-primary"> {{ site.data.me.name }}</h1>
-  <p>{{ site.data.me.location }}</p>
-  {% include social.html %}
-</div>
 
-<div class="col-sm-8">
-  <div class="row ">
-    <div class="h-scroll d-flex flex-wrap">
+    <div class="d-flex flex-wrap">
       {% for item in site.cards reversed %}
 
         {% include card.html %}
 
       {% endfor %}
     </div>
-  </div>
-  
-
-</div>
-</div>
 

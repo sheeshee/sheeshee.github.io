@@ -17,14 +17,14 @@
 }
 
 .social {
-    margin: 5px;
+    margin: 10px 15px 10px 15px;
 }
 
 .h-scroll {
     height:75vh; /* %-height of the viewport */
     // width:60vw;
     // position: fixed;
-    overflow-y: scroll;
+    overflow-y: auto;
     // overflow: hidden;
 }
 
