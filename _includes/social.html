@@ -1,0 +1,19 @@
+<div class="d-flex align-items-center flex-column bd-highlight mb-3 flex-grow-0">
+{% if site.data.me.social.linkedin %}
+<a href='https://linkedin.com/in/{{ site.data.me.social.linkedin }}'><i class="fab fa-linkedin fa-2x social"></i></a>
+{% endif %}
+
+{% if site.data.me.social.github %}
+<a href='https://github.com/{{ site.data.me.social.github }}'><i class="fab fa-github fa-2x social"></i></a>
+{% endif %}
+
+{% if site.data.me.social.medium %}
+<a href='https://medium.com/{{ site.data.me.social.medium }}'><i class="fab fa-medium fa-2x social"></i></a>
+{% endif %}
+
+{% if site.data.me.social.kaggle %}
+<!-- Inlcuding the asset directly here because for some reason it didnt like being called directly from the library -->
+<a href='https://kaggle.com/{{ site.data.me.social.kaggle }}'>{% include kaggle-brands.svg %}</a>
+{% endif %}
+
+</div>
