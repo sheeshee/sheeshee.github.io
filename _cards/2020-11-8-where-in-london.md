@@ -1,5 +1,5 @@
 ---
-title: Where In London?
+title: London House Prices
 platform: React
 tags:
     - React
@@ -7,7 +7,6 @@ tags:
     - GIS
 link: https://sheeshee.github.io/where-in-london/
 ---
-London is a big place. I was wondering where would be the best
-place for me to live, so I am building an online tool that can 
-help me and others inspect different datasets to do with London
-in an intuitive manner.
+London is a big place. I was wondering where would be
+best to perhaps invest in some property one day, so I made a
+React app to visualize the UK's Housing Price Index data
