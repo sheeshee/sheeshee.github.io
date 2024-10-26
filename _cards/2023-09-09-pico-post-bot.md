@@ -7,4 +7,4 @@ tags:
     - IFTTT
 link: https://github.com/sheeshee/pico-post-bot
 ---
-I experiemented with a Raspberry Pi Pico to create a gadget I could stick in our postbox down in our apartment building's postbox that would send me a notification whenever we got mail.
+I experimented with a Raspberry Pi Pico to create a gadget I could stick in our postbox down in our apartment building's reception that would send me a notification whenever we got mail.
