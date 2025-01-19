@@ -3,6 +3,16 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Socials from '../components/Socials.astro';
 
+interface Project {
+	frontmatter: {
+		title: string;
+		date: string;
+		icon: string;
+		url: string;
+	},
+	rawContent(): string;
+}
+
 const featuredProject = Object.values(import.meta.glob<Project>('../content/projects/*.md', { eager: true })).reverse()[0];
 ---
 
