@@ -1,13 +1,28 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Main from '../layouts/Main.astro';
 import Card from '../components/Card.astro';
 
-const projects = Object.values(await import.meta.glob('../content/projects/*.md', { eager: true })).reverse();
+interface Project {
+	frontmatter: {
+		title: string;
+		date: string;
+		icon: string;
+		url: string;
+	},
+	rawContent(): string;
+}
+
+const projects = Object.values(import.meta.glob<Project>('../content/projects/*.md', { eager: true })).reverse();
 ---
 <Layout title='Projects & Things'>
 	<h1>Projects & Things</h1>
-	{projects.map( project => <div><Card class="card" icon={project.frontmatter.icon} title={project.frontmatter.title} body={project.rawContent()}/></div>)}
+	{ projects.map( project => <Card
+		icon={project.frontmatter.icon}
+		href={project.frontmatter.url}
+		title={project.frontmatter.title}
+		body={project.rawContent()}
+		/>
+	)}
 </Layout>
 <style>
 	div {
