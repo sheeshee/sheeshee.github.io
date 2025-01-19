@@ -2,7 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Socials from '../components/Socials.astro';
-import * as FeaturedProject from '../content/projects/2024-10-26-codename.md'
+
+const featuredProject = Object.values(import.meta.glob<Project>('../content/projects/*.md', { eager: true })).reverse()[0];
 ---
 
 <Layout title="Welcome to Astro.">
@@ -15,10 +16,10 @@ import * as FeaturedProject from '../content/projects/2024-10-26-codename.md'
 			<p>I live in Wales and write code as a job. I'm a <em>learn-a-bit-about-alot</em> sort of person, and I want the things I make to feel like magic ✨</p>
 	<h2>My latest thing</h2>
 	<Card
-		icon={FeaturedProject.frontmatter.icon}
-		href={FeaturedProject.frontmatter.url}
-		title={FeaturedProject.frontmatter.title}
-		body={FeaturedProject.rawContent()}
+		icon={featuredProject.frontmatter.icon}
+		href={featuredProject.frontmatter.url}
+		title={featuredProject.frontmatter.title}
+		body={featuredProject.rawContent()}
 	/>
 	<h3><span>🚀</span><a href='/projects'>See more things</a></h3>
 </Layout>
