@@ -7,8 +7,6 @@ This is a simple static website to host links to my work.
 This website is
 
 * hosted on [Github pages](https://pages.github.com/)
-  
-* powered by [Jekyll](https://jekyllrb.com/docs/)
 
-* styled by [Bootstrap 4](https://getbootstrap.com/).
+* and built with [Astro](https://astro.build)
 
