@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Main from '../layouts/Main.astro';
+import Card from '../components/Card.astro';
+import Socials from '../components/Socials.astro';
+import * as FeaturedProject from '../content/projects/2024-10-26-codename.md'
+---
+
+<Layout title="Welcome to Astro.">
+	<div>
+	<object id="waving" type="image/svg+xml" data="/waving.svg"></object>
+	<object id="greeting" type="image/svg+xml" data="/greeting.svg"></object>
+</div>
+			<h1>I'm Sam</h1>
+			<Socials/>
+			<p>I live in Wales and write code as a job. I'm a <em>learn-a-bit-about-alot</em> sort of person, and I want the things I make to feel like magic ✨</p>
+	<h2>My latest thing</h2>
+	<Card
+		icon={FeaturedProject.frontmatter.icon}
+		href={FeaturedProject.frontmatter.url}
+		title={FeaturedProject.frontmatter.title}
+		body={FeaturedProject.rawContent()}
+	/>
+	<h3><span>🚀</span><a href='/projects'>See more things</a></h3>
+</Layout>
+
+<style>
+	div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+		width: fit-content;
+		padding-top: 1rem;
+	}
+	#waving {
+		width: 100px;
+		padding-bottom: 5px;
+		position: relative;
+		left: 20px;
+	}
+	#greeting {
+		width: 300px;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	a {
+		color: #000042;
+	}
+
+	span {
+		display: inline-block;
+		margin-right: 0.5em;
+	}
+	h3 {
+		width: fit-content;
+	}
+
+	h3:hover span {
+	    animation: rocket-takeoff 0.7s ease-out forwards;
+	}
+
+	@keyframes rocket-takeoff {
+	    0% {
+		transform: translate(0px, 0px);
+		opacity: 1;
+	    }
+	    30% {
+		    opacity: 1;
+		}
+	    60% {
+		transform: translate(80px, -80px);
+		opacity: 0;
+	    }
+	    80% {
+		    transform: translate(-10px, 10px);
+		    opacity: 0;
+	    }
+	    100% {
+		    transform: translate(0px, 0px);
+		    opacity: 1;
+		}
+
+	}
+
+</style>

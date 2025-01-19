@@ -1,0 +1,72 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<header>
+			<a href='/' class={Astro.url.pathname.split("/")[1] == "" ? "underline": ""}>Home</a>
+		    <a href='/projects/' class={Astro.url.pathname.split("/")[1] == "projects" ? "underline": ""}>Projects</a>
+		</header>
+		<main>
+			<slot />
+		</main>
+	</body>
+</html>
+<style is:global>
+	html {
+		font-family: system-ui, sans-serif;
+		background: white;
+	}
+	body {
+		max-width: calc(100% - 2rem);
+		width: 800px;
+		margin: auto;
+	}
+
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+	main {
+		margin: auto;
+		padding: 0 1rem;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	header {
+		padding: 15px;
+	}
+	header a {
+		color: #000042;
+		text-decoration: none;
+		margin: 0 10px;
+		font-size: large;
+	}
+	header a:hover {
+		text-decoration: underline
+	}
+	.underline {
+		text-decoration: underline
+	}
+</style>
