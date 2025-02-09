@@ -2,6 +2,7 @@
 title: SIAM 100 Digit Challenge
 icon: github
 url: https://github.com/sheeshee/siam-100-digit-challenge
+date: 13 June 2021
 ---
 The SIAM 100 Digit Challenge was a series of short yet very difficult problem
 statements first published in 2002 asking participants to calculate the numerical

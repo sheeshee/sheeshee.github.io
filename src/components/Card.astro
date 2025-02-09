@@ -4,9 +4,10 @@ interface Props {
 	body: string;
 	href: string;
 	icon: string;
+	date: string;
 }
 
-const { href, title, body, icon } = Astro.props;
+const { href, title, body, icon, date } = Astro.props;
 import IconGitHub from './IconGitHub.astro';
 ---
 
@@ -14,8 +15,7 @@ import IconGitHub from './IconGitHub.astro';
 	<a href={href}>
 		<div>
 		<h2>
-			{title}
-			<span>&rarr;</span>
+			{title} <span>- {date}</span>
 		</h2>
 		<p>
 			{body}
@@ -91,13 +91,8 @@ import IconGitHub from './IconGitHub.astro';
     }
 
      h2 span {
-      font-size: 1.25rem;
-      line-height: 1;
-      transition: transform 0.2s ease;
-    }
-
-    a:hover h2 span {
-      transform: translateX(4px);
+	color: grey;
+	font-size: 1rem;
     }
 
     p {
