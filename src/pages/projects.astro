@@ -17,17 +17,21 @@ const projects = Object.values(import.meta.glob<Project>('../content/projects/*.
 ---
 <Layout title='Projects & Things'>
 	<h1>Projects & Things</h1>
-	{ projects.map( project => <Card
+	{ projects.map( project => <div><Card
 		icon={project.frontmatter.icon}
 		date={project.frontmatter?.date}
 		href={project.frontmatter.url}
 		title={project.frontmatter.title}
 		body={project.rawContent()}
-		/>
+		/></div>
 	)}
+	<footer></footer>
 </Layout>
 <style>
 	div {
-		margin: 5px;
+		margin: 8px;
+	}
+	footer {
+		height: 100px;
 	}
 </style>
