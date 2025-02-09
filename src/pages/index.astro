@@ -23,13 +23,14 @@ const featuredProject = Object.values(import.meta.glob<Project>('../content/proj
 </div>
 			<h1>I'm Sam</h1>
 			<Socials/>
-			<p>I live in Wales and write code as a job. I'm a <em>learn-a-bit-about-alot</em> sort of person, and I want the things I make to feel like magic ✨</p>
+			<p>I live in Wales and write code as a job. I'm a <em>learn-a-little-about-alot</em> sort of person, and I want the things I make to feel like magic ✨</p>
 	<h2>My latest thing</h2>
 	<Card
 		icon={featuredProject.frontmatter.icon}
 		href={featuredProject.frontmatter.url}
 		title={featuredProject.frontmatter.title}
 		body={featuredProject.rawContent()}
+		date={featuredProject.frontmatter.date}
 	/>
 	<h3><span>🚀</span><a href='/projects'>See more things</a></h3>
 </Layout>
