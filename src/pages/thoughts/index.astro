@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+
+interface Thought {
+	frontmatter: {
+		title: string;
+		date: string;
+		icon: string;
+		url: string;
+		preamble: string
+	},
+	rawContent(): string;
+}
+
+const thoughts = Object.values(import.meta.glob<Thought>('./*.md', { eager: true })).reverse();
+---
+<Layout title='Thoughts'>
+	<h1>Thoughts</h1>
+	{ thoughts.map( thought => <div><Card
+		icon={thought.frontmatter.icon}
+		date={thought.frontmatter?.date}
+		href={thought.url}
+		title={thought.frontmatter.title}
+		body={thought.frontmatter.preamble}
+		/></div>
+	)}
+	<footer></footer>
+</Layout>
+<style>
+	div {
+		margin: 8px;
+	}
+	footer {
+		height: 100px;
+	}
+</style>

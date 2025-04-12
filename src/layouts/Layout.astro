@@ -20,7 +20,9 @@ const { title } = Astro.props;
 	<body>
 		<header>
 			<a href='/' class={Astro.url.pathname.split("/")[1] == "" ? "underline": ""}>Home</a>
-		    <a href='/projects/' class={Astro.url.pathname.split("/")[1] == "projects" ? "underline": ""}>Projects</a>
+			<a href='/projects/' class={Astro.url.pathname.split("/")[1] == "projects" ? "underline": ""}>Projects</a>
+			<a href='/thoughts/' class={Astro.url.pathname.split("/")[1] == "thoughts" ? "underline": ""}>Thoughts</a>
+			<a href='/creative-writing/' class={Astro.url.pathname.split("/")[1] == "creative-writing" ? "underline": ""}>Creative Writing</a>
 		</header>
 		<main>
 			<slot />
