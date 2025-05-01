@@ -10,7 +10,6 @@ const posts = await getCollection('creativeWriting');
 <Layout title="Creative Writing">
 	<h1>Creative Writing</h1>
 	{ posts.reverse().map( post => <div><Card
-		icon={post.data.icon}
 		date={dateFromFilename(post.id)}
 		href={slugFromFilename(post.id)}
 		title={post.data.title}
