@@ -19,10 +19,10 @@ const featuredProject = projects.reverse()[0];
 			<p>I live in Wales and write code as a job. I'm a <em>learn-a-little-about-alot</em> sort of person, and I want the things I make to feel like magic ✨</p>
 	<h2>My latest thing</h2>
 	<Card
-		icon={featuredProject.data.icon}
+		icon={featuredProject.data.icon || ""}
 		href={featuredProject.data.url}
 		title={featuredProject.data.title}
-		body={featuredProject.body}
+		body={featuredProject.body || ""}
 		date={dateFromFilename(featuredProject.id)}
 	/>
 	<h3><span>🚀</span><a href='/projects'>See more things</a></h3>
