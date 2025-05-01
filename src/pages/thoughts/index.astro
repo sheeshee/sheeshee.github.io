@@ -2,10 +2,10 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro'
 import Card from '../../components/Card.astro';
-import { formattedDateFromFilename, slugFromFilename, sortContentByDateFromFilename } from '../../utils.ts';
+import { formattedDateFromFilename, slugFromFilename, compareDateFromFilename } from '../../utils.ts';
 
-const posts = sortContentByDateFromFilename(
-	await getCollection('thoughts')
+const posts = await getCollection('thoughts').then(
+	posts => posts.sort(compareDateFromFilename)
 );
 
 ---

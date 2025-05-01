@@ -1,4 +1,6 @@
-export function dateFromFilename(filename: String){
+import type { CollectionEntry } from 'astro:content';
+
+export function dateFromFilename(filename: String): Date {
 	const dateMatch = filename.match(/^(\d{4}-\d{2}-\d{2})/);
 	const dateStr = dateMatch ? dateMatch[1] : null;
 	if (!dateStr) {
@@ -22,12 +24,12 @@ export function slugFromFilename(filename: String){
 	return filename.replace(/\.[^/.]+$/, "")
 }
 
-function compareDateFromFilename(a, b) {
-	const dateA = dateFromFilename(a.id);
-	const dateB = dateFromFilename(b.id);
-	return dateA - dateB;
-}
 
-export function sortContentByDateFromFilename(content) {
-	return content.sort(compareDateFromFilename);
+export function compareDateFromFilename<T extends 'thoughts' | 'projects' | 'creativeWriting'>(
+  a: CollectionEntry<T>,
+  b: CollectionEntry<T>
+): number {
+  const dateA = dateFromFilename(a.id);
+  const dateB = dateFromFilename(b.id);
+  return dateA.valueOf() - dateB.valueOf();
 }

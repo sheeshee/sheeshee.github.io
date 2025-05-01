@@ -1,12 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
-import { formattedDateFromFilename, sortContentByDateFromFilename } from '../utils.ts';
+import { formattedDateFromFilename, compareDateFromFilename } from '../utils.ts';
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Socials from '../components/Socials.astro';
 
-const projects = sortContentByDateFromFilename(
-	await getCollection('projects')
+const projects = await getCollection('projects').then(
+	projects => projects.sort(compareDateFromFilename)
 );
 
 const featuredProject = projects[projects.length - 1];

@@ -2,11 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import { getCollection } from 'astro:content';
-import { formattedDateFromFilename, sortContentByDateFromFilename } from './../utils.ts';
+import { formattedDateFromFilename, compareDateFromFilename } from './../utils.ts';
 
 
-const projects = sortContentByDateFromFilename(
-	await getCollection('projects')
+const projects = await getCollection('projects').then(
+	projects => projects.sort(compareDateFromFilename)
 );
 ---
 <Layout title='Projects & Things'>
