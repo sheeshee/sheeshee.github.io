@@ -9,11 +9,11 @@ const projects = await getCollection('projects');
 <Layout title='Projects & Things'>
 	<h1>Projects & Things</h1>
 	{ projects.reverse().map( project => <div><Card
-		icon={project.data.icon}
+		icon={project.data.icon || ""}
 		date={dateFromFilename(project.id)}
 		href={project.data.url}
 		title={project.data.title}
-		body={project.body}
+		body={project.body || ""}
 		/></div>
 	)}
 	<footer></footer>

@@ -13,7 +13,8 @@ const posts = await getCollection('creativeWriting');
 		date={dateFromFilename(post.id)}
 		href={slugFromFilename(post.id)}
 		title={post.data.title}
-		body={post.data.preamble}}
+		body={post.data.preamble}
+		icon=""
 		/></div>
 	)}
 	<footer></footer>
