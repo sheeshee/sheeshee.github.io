@@ -1,6 +1,5 @@
 ---
 title: Learn MNIST with Fastai
-date: 20 May 2020
 icon: kaggle
 url: https://www.kaggle.com/samslondon/learn-mnist-with-fastai/
 ---

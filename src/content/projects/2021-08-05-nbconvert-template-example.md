@@ -2,7 +2,6 @@
 title: nbconvert Example Template
 platform: PyPi
 url: https://pypi.org/project/nbconvert-example-template/
-date: 05 Aug 2021
 ---
 The Jupyter extension nbconvert allows users to export their notebooks as PDFs,
 slides, html documents, etc... and it is easy enough to create your own

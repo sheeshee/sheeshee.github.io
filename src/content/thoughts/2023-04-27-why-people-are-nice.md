@@ -1,6 +1,5 @@
 ---
 title: Why people are nice
-date: 27 April 2023
 preamble: This thought is about why people are nice in the first place, and not why they should be nice...
 ---
 This thought is about why people are nice in the first place, and not why they *should* be nice.

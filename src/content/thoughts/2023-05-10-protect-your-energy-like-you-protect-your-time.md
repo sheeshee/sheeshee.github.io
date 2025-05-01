@@ -1,6 +1,5 @@
 ---
 title: Protect your energy like you protect your time
-date: 10 May 2023
 preamble: There is a common rule in professional life to “protect your time”. I think we can rephrase/expand this rule to include someone’s energy...
 ---
 There is a common rule in professional life to “protect your time”. The aim is that you maximises your time on value-producing activities thereby maximising value.

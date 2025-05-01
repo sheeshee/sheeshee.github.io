@@ -1,29 +1,20 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro'
 import Card from '../../components/Card.astro';
+import { dateFromFilename, slugFromFilename } from '../../utils.ts';
 
-interface Thought {
-	frontmatter: {
-		title: string;
-		date: string;
-		icon: string;
-		url: string;
-		preamble: string
-	},
-	url: string,
-	rawContent(): string;
-}
+const posts = await getCollection('creativeWriting');
 
-const thoughts = Object.values(import.meta.glob<Thought>('./*.md', { eager: true })).reverse();
 ---
-<Layout title='Thoughts'>
-	<h1>Thoughts</h1>
-	{ thoughts.map( thought => <div><Card
-		icon={thought.frontmatter.icon}
-		date={thought.frontmatter?.date}
-		href={thought.url}
-		title={thought.frontmatter.title}
-		body={thought.frontmatter.preamble}
+<Layout title="Creative Writing">
+	<h1>Creative Writing</h1>
+	{ posts.reverse().map( post => <div><Card
+		icon={post.data.icon}
+		date={dateFromFilename(post.id)}
+		href={slugFromFilename(post.id)}
+		title={post.data.title}
+		body={post.data.preamble}}
 		/></div>
 	)}
 	<footer></footer>

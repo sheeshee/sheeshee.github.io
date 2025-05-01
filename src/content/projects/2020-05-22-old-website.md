@@ -1,6 +1,5 @@
 ---
 title: Previous Personal Website
-date: 22 May 2020
 icon: github
 url: https://github.com/sheeshee/sheeshee.github.io/
 ---

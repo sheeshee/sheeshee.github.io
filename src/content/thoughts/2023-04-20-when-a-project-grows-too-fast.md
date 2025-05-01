@@ -1,6 +1,5 @@
 ---
 title: When a project grows too fast
-date: 20 April 2023
 preamble: Growth is good, right? Sustainable growth is. Non-sustainable growth is, well, not so good...
 ---
 Growth is good, right? Sustainable growth is. Non-sustainable growth is, well, not so good.

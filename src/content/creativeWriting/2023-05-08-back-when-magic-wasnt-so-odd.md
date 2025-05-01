@@ -1,6 +1,5 @@
 ---
 title: Back When Magic Wasn't So Odd
-date: 8 May 2023
 preamble: Magic used to be real, you know.
 ---
 Magic used to be real, you know. Well it wasn't called magic back then. It was just part of every day life.

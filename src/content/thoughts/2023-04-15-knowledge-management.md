@@ -1,6 +1,5 @@
 ---
 title: Knowledge Management
-date: 15 April 2023
 preamble: Why is knowledge management so hard? Of the three places I've worked so far, none of figured out a way to keep docs up to date...
 ---
 Why is knowledge management so hard? Of the three places I've worked so far, none of figured out a way to keep docs up to date. Probably because each KM instigator assumes that the space's maintenance will happen automatically. But humans are lazy! If something doesn't *need* to be done, then why spend the effort?

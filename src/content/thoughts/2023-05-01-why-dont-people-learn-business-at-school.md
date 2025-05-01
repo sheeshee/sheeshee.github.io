@@ -1,6 +1,5 @@
 ---
 title: Why don't people learn business at school?
-date: 1 May 2023
 preamble: Now that you're grown up and looking for how to maximize your income, have you thought about running your own business? The thought crosses my mind now and then, but the idea of running a business is so intangible to me, I have a hard time figuring out how to move forward with it...
 ---
 Now that you're grown up and looking for how to maximize your income, have you thought about running your own business? The thought crosses my mind now and then, but the idea of running a business is so intangible to me, I have a hard time figuring out how to move forward with it.

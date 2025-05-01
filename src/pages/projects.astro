@@ -1,27 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import { getCollection } from 'astro:content';
+import { dateFromFilename } from './../utils.ts';
 
-interface Project {
-	frontmatter: {
-		title: string;
-		date: string;
-		icon: string;
-		url: string;
-	},
-	rawContent(): string;
-}
-
-const projects = Object.values(import.meta.glob<Project>('../content/projects/*.md', { eager: true })).reverse();
+const projects = await getCollection('projects');
 ---
 <Layout title='Projects & Things'>
 	<h1>Projects & Things</h1>
-	{ projects.map( project => <div><Card
-		icon={project.frontmatter.icon}
-		date={project.frontmatter?.date}
-		href={project.frontmatter.url}
-		title={project.frontmatter.title}
-		body={project.rawContent()}
+	{ projects.reverse().map( project => <div><Card
+		icon={project.data.icon}
+		date={dateFromFilename(project.id)}
+		href={project.data.url}
+		title={project.data.title}
+		body={project.body}
 		/></div>
 	)}
 	<footer></footer>
