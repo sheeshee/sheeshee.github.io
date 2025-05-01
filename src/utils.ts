@@ -5,6 +5,11 @@ export function dateFromFilename(filename: String){
 		throw new Error(`Filename ${filename} does not contain a valid date`);
 	}
 	const date = new Date(dateStr);
+	return date;
+}
+
+export function formattedDateFromFilename(filename: String){
+	const date = dateFromFilename(filename);
 	const formattedDate = new Intl.DateTimeFormat('en-GB', {
 		day: 'numeric',
 		month: 'long',
@@ -15,4 +20,14 @@ export function dateFromFilename(filename: String){
 
 export function slugFromFilename(filename: String){
 	return filename.replace(/\.[^/.]+$/, "")
+}
+
+function compareDateFromFilename(a, b) {
+	const dateA = dateFromFilename(a.id);
+	const dateB = dateFromFilename(b.id);
+	return dateA - dateB;
+}
+
+export function sortContentByDateFromFilename(content) {
+	return content.sort(compareDateFromFilename);
 }

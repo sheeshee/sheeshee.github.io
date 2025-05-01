@@ -1,13 +1,13 @@
 ---
 import { getCollection, render } from 'astro:content';
-import { dateFromFilename } from '../../utils.ts';
+import { formattedDateFromFilename } from '../../utils.ts';
 import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('creativeWriting');
 	return posts.map(post => {
 		const slug = post.id.replace(/\.[^/.]+$/, "")
-		const date = dateFromFilename(post.id);
+		const date = formattedDateFromFilename(post.id);
 
 
 		return {

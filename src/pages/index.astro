@@ -1,12 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
-import { dateFromFilename } from '../utils.ts';
+import { formattedDateFromFilename, sortContentByDateFromFilename } from '../utils.ts';
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Socials from '../components/Socials.astro';
 
-const projects = await getCollection('projects');
-const featuredProject = projects.reverse()[0];
+const projects = sortContentByDateFromFilename(
+	await getCollection('projects')
+);
+
+const featuredProject = projects[projects.length - 1];
 ---
 
 <Layout title="Hi, I'm Sam">
@@ -23,7 +26,7 @@ const featuredProject = projects.reverse()[0];
 		href={featuredProject.data.url}
 		title={featuredProject.data.title}
 		body={featuredProject.body || ""}
-		date={dateFromFilename(featuredProject.id)}
+		date={formattedDateFromFilename(featuredProject.id)}
 	/>
 	<h3><span>🚀</span><a href='/projects'>See more things</a></h3>
 </Layout>

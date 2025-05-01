@@ -1,13 +1,13 @@
 ---
 import { getCollection, render } from 'astro:content';
-import { dateFromFilename, slugFromFilename } from '../../utils.ts';
+import { formattedDateFromFilename, slugFromFilename } from '../../utils.ts';
 import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('thoughts');
 	return posts.map(post => {
 		const slug = slugFromFilename(post.id);
-		const date = dateFromFilename(post.id);
+		const date = formattedDateFromFilename(post.id);
 		return {
 			params: { slug: slug },
 			props: { post, slug, date },

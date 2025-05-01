@@ -2,15 +2,18 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import { getCollection } from 'astro:content';
-import { dateFromFilename } from './../utils.ts';
+import { formattedDateFromFilename, sortContentByDateFromFilename } from './../utils.ts';
 
-const projects = await getCollection('projects');
+
+const projects = sortContentByDateFromFilename(
+	await getCollection('projects')
+);
 ---
 <Layout title='Projects & Things'>
 	<h1>Projects & Things</h1>
 	{ projects.reverse().map( project => <div><Card
 		icon={project.data.icon || ""}
-		date={dateFromFilename(project.id)}
+		date={formattedDateFromFilename(project.id)}
 		href={project.data.url}
 		title={project.data.title}
 		body={project.body || ""}

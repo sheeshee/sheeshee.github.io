@@ -2,15 +2,17 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro'
 import Card from '../../components/Card.astro';
-import { dateFromFilename, slugFromFilename } from '../../utils.ts';
+import { formattedDateFromFilename, slugFromFilename, sortContentByDateFromFilename } from '../../utils.ts';
 
-const posts = await getCollection('thoughts');
+const posts = sortContentByDateFromFilename(
+	await getCollection('thoughts')
+);
 
 ---
 <Layout title="Thoughts">
 	<h1>Thoughts</h1>
 	{ posts.reverse().map( post => <div><Card
-		date={dateFromFilename(post.id)}
+		date={formattedDateFromFilename(post.id)}
 		href={slugFromFilename(post.id)}
 		title={post.data.title}
 		body={post.data.preamble}
