@@ -1,19 +1,12 @@
 ---
+import { getCollection } from 'astro:content';
+import { dateFromFilename } from '../utils.ts';
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Socials from '../components/Socials.astro';
 
-interface Project {
-	frontmatter: {
-		title: string;
-		date: string;
-		icon: string;
-		url: string;
-	},
-	rawContent(): string;
-}
-
-const featuredProject = Object.values(import.meta.glob<Project>('../content/projects/*.md', { eager: true })).reverse()[0];
+const projects = await getCollection('projects');
+const featuredProject = projects.reverse()[0];
 ---
 
 <Layout title="Hi, I'm Sam">
@@ -26,11 +19,11 @@ const featuredProject = Object.values(import.meta.glob<Project>('../content/proj
 			<p>I live in Wales and write code as a job. I'm a <em>learn-a-little-about-alot</em> sort of person, and I want the things I make to feel like magic ✨</p>
 	<h2>My latest thing</h2>
 	<Card
-		icon={featuredProject.frontmatter.icon}
-		href={featuredProject.frontmatter.url}
-		title={featuredProject.frontmatter.title}
-		body={featuredProject.rawContent()}
-		date={featuredProject.frontmatter.date}
+		icon={featuredProject.data.icon}
+		href={featuredProject.data.url}
+		title={featuredProject.data.title}
+		body={featuredProject.body}
+		date={dateFromFilename(featuredProject.id)}
 	/>
 	<h3><span>🚀</span><a href='/projects'>See more things</a></h3>
 </Layout>
