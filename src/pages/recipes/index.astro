@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro'
+import Card from '../../components/Card.astro';
+import { formattedDateFromFilename, slugFromFilename, compareDateFromFilename } from '../../utils.ts';
+
+const recipes = await getCollection('recipes').then(
+	recipes => recipes.sort(compareDateFromFilename)
+);
+
+---
+<Layout title="Recipes">
+	<h1>Recipes</h1>
+	{ recipes.reverse().map( recipe => <div><Card
+		date={formattedDateFromFilename(recipe.id)}
+		href={slugFromFilename(recipe.id)}
+		title={recipe.data.name}
+		body={recipe.data.description}
+		icon=""
+		/></div>
+	)}
+	<footer></footer>
+</Layout>
+<style>
+	div {
+		margin: 8px;
+	}
+	footer {
+		height: 100px;
+	}
+</style>

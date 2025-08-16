@@ -1,0 +1,128 @@
+---
+import { getCollection } from 'astro:content';
+import { formattedDateFromFilename, slugFromFilename } from '../../utils.ts';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+	const recipes = await getCollection('recipes');
+	return recipes.map(recipe => {
+		const slug = slugFromFilename(recipe.id);
+		const date = formattedDateFromFilename(recipe.id);
+		return {
+			params: { slug: slug },
+			props: { recipe, slug, date },
+		}
+	})
+};
+
+const { recipe, date } = Astro.props;
+---
+<Layout title={recipe.data.name}>
+	<h1>{recipe.data.name}</h1>
+	<div class="date">{date}</div>
+	<div class="meta">
+		<p><strong>Cuisine:</strong> {recipe.data.cuisine}</p>
+		<p><strong>Difficulty:</strong> {recipe.data.difficulty}</p>
+		<p><strong>Total Time:</strong> {recipe.data.total_time_minutes} minutes</p>
+		<p><strong>Servings:</strong> {recipe.data.base_servings}</p>
+	</div>
+	
+	<div class="description">
+		<p>{recipe.data.description}</p>
+	</div>
+
+	<div class="ingredients">
+		<h2>Ingredients</h2>
+		<ul>
+			{recipe.data.ingredients.map(ingredient => (
+				<li>
+					{ingredient.amount_base} {ingredient.unit} {ingredient.name}
+					{ingredient.notes && <span class="notes"> - {ingredient.notes}</span>}
+				</li>
+			))}
+		</ul>
+	</div>
+
+	<div class="instructions">
+		<h2>Instructions</h2>
+		<ol>
+			{recipe.data.instructions.map(instruction => (
+				<li>{instruction.action}</li>
+			))}
+		</ol>
+	</div>
+</Layout>
+<style>
+	.date {
+		font-style: italic;
+		margin-bottom: 1rem;
+	}
+	
+	.meta {
+		background: #f5f5f5;
+		padding: 1rem;
+		border-radius: 8px;
+		margin-bottom: 2rem;
+	}
+	
+	.meta p {
+		margin: 0.5rem 0;
+	}
+	
+	.description {
+		margin-bottom: 2rem;
+	}
+	
+	.ingredients, .instructions {
+		margin-bottom: 2rem;
+	}
+	
+	.ingredients h2, .instructions h2 {
+		border-bottom: 2px solid #333;
+		padding-bottom: 0.5rem;
+		margin-bottom: 1rem;
+	}
+	
+	.ingredients ul {
+		list-style-type: disc;
+		padding-left: 2rem;
+	}
+	
+	.ingredients li {
+		margin-bottom: 0.5rem;
+	}
+	
+	.notes {
+		color: #666;
+		font-style: italic;
+	}
+	
+	.instructions ol {
+		counter-reset: step-counter;
+		list-style: none;
+		padding-left: 0;
+	}
+	
+	.instructions li {
+		counter-increment: step-counter;
+		margin-bottom: 1rem;
+		padding-left: 3rem;
+		position: relative;
+	}
+	
+	.instructions li::before {
+		content: counter(step-counter);
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #333;
+		color: white;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: bold;
+	}
+</style>

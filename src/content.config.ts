@@ -27,8 +27,33 @@ const projects = defineCollection({
 	})
 })
 
+const recipes = defineCollection({
+	loader: glob({ pattern: "**/*.yml", base: "./src/content/recipes" }),
+	schema: z.object({
+		name: z.string(),
+		description: z.string(),
+		cuisine: z.string(),
+		difficulty: z.string(),
+		prep_time_minutes: z.number(),
+		cook_time_minutes: z.number(),
+		total_time_minutes: z.number(),
+		base_servings: z.number(),
+		scaling: z.record(z.number()),
+		ingredients: z.array(z.object({
+			name: z.string(),
+			amount_base: z.number(),
+			unit: z.string(),
+			notes: z.string().optional(),
+		})),
+		instructions: z.array(z.object({
+			step: z.number(),
+			action: z.string(),
+		})),
+	})
+})
+
 // other collections....
 //
 
-export const collections = { thoughts, creativeWriting, projects };
+export const collections = { thoughts, creativeWriting, projects, recipes };
 
