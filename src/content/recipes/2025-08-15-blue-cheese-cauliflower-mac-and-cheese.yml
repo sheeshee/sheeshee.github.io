@@ -1,0 +1,109 @@
+name: "Blue Cheese Cauliflower Mac and Cheese"
+description: "A delicious veggie option that makes it easy to eat more veg in your diet and try something new! Featuring roasted cauliflower, creamy cheese sauce, and crispy breadcrumb topping with a sriracha drizzle. From Hello Fresh."
+cuisine: "British"
+difficulty: "Easy"
+prep_time_minutes: 15
+cook_time_minutes: 20
+total_time_minutes: 35
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "macaroni pasta"
+    amount_base: 180
+    unit: "g"
+    notes: "or other short pasta"
+
+  - name: "cauliflower florets"
+    amount_base: 300
+    unit: "g"
+    notes: "fresh"
+
+  - name: "mature cheddar cheese"
+    amount_base: 60
+    unit: "g"
+    notes: "grated"
+
+  - name: "blue cheese"
+    amount_base: 30
+    unit: "g"
+    notes: "crumbled"
+
+  - name: "panko breadcrumbs"
+    amount_base: 25
+    unit: "g"
+    notes: ""
+
+  - name: "vegetable stock paste"
+    amount_base: 15
+    unit: "g"
+    notes: ""
+
+  - name: "crème fraîche"
+    amount_base: 150
+    unit: "g"
+    notes: ""
+
+  - name: "sriracha sauce"
+    amount_base: 15
+    unit: "g"
+    notes: "for drizzle"
+
+  - name: "butter"
+    amount_base: 20
+    unit: "g"
+    notes: ""
+
+  - name: "plain flour"
+    amount_base: 2
+    unit: "g"
+    notes: ""
+
+  - name: "olive oil"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for breadcrumbs"
+
+  - name: "water"
+    amount_base: 250
+    unit: "ml"
+    notes: "for sauce"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C/200°C fan/gas mark 7. Line a baking tray with parchment paper."
+
+  - step: 2
+    action: "Toss cauliflower florets with a drizzle of olive oil, salt and pepper. Roast for 15-20 minutes until golden brown and tender."
+
+  - step: 3
+    action: "Cook macaroni in a large pot of salted boiling water for 12 minutes until al dente. Drain and set aside."
+
+  - step: 4
+    action: "In a small bowl, mix panko breadcrumbs with 2 tbsp olive oil and season with salt and pepper."
+
+  - step: 5
+    action: "In a large saucepan, melt butter over medium heat. Add flour and whisk constantly for 1 minute to make a roux."
+
+  - step: 6
+    action: "Gradually add water while whisking, then stir in vegetable stock paste and crème fraîche. Simmer until thickened."
+
+  - step: 7
+    action: "Remove sauce from heat and stir in grated cheddar cheese until melted and smooth."
+
+  - step: 8
+    action: "Add the cooked pasta and roasted cauliflower to the cheese sauce and mix well to combine."
+
+  - step: 9
+    action: "Transfer mixture to a baking dish and top with crumbled blue cheese and the prepared breadcrumb mixture."
+
+  - step: 10
+    action: "Place under the grill for 3-5 minutes until the breadcrumb topping is golden brown."
+
+  - step: 11
+    action: "Serve immediately with a drizzle of sriracha sauce on top."
