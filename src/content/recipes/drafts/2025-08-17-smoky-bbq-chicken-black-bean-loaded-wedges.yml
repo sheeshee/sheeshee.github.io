@@ -1,0 +1,114 @@
+name: "Smoky BBQ Chicken & Black Bean Loaded Wedges"
+description: "This Smoky BBQ Chicken & Black Bean Loaded Wedges is bursting full of flavours and makes the perfect dinner night option from HelloFresh."
+cuisine: "American"
+difficulty: "Medium"
+prep_time_minutes: 20
+cook_time_minutes: 25
+total_time_minutes: 45
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "potatoes"
+    amount_base: 450
+    unit: "g"
+    notes: "chopped into 2cm wedges"
+
+  - name: "BBQ sauce"
+    amount_base: 64
+    unit: "g"
+    notes: ""
+
+  - name: "cider vinegar"
+    amount_base: 15
+    unit: "g"
+    notes: ""
+
+  - name: "chipotle paste"
+    amount_base: 20
+    unit: "g"
+    notes: ""
+
+  - name: "diced British chicken thigh"
+    amount_base: 260
+    unit: "g"
+    notes: ""
+
+  - name: "spring onion"
+    amount_base: 1
+    unit: "whole"
+    notes: "sliced"
+
+  - name: "carrot"
+    amount_base: 1
+    unit: "whole"
+    notes: "grated"
+
+  - name: "mature cheddar cheese"
+    amount_base: 60
+    unit: "g"
+    notes: "grated"
+
+  - name: "black beans"
+    amount_base: 200
+    unit: "g"
+    notes: "drained and rinsed"
+
+  - name: "water"
+    amount_base: 100
+    unit: "ml"
+    notes: "for the sauce"
+
+  - name: "olive oil"
+    amount_base: 3
+    unit: "tbsp"
+    notes: "for roasting"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C/200°C fan/gas mark 7."
+
+  - step: 2
+    action: "Chop potatoes into 2cm wedges. Drizzle with oil and season with salt and pepper. Arrange on a baking tray."
+
+  - step: 3
+    action: "Roast potato wedges for 25-35 minutes, turning halfway through, until golden and crispy."
+
+  - step: 4
+    action: "Meanwhile, make sauce by combining water, BBQ sauce, cider vinegar, and chipotle paste in a large pan."
+
+  - step: 5
+    action: "Add diced chicken thigh to the sauce and simmer for 15-20 minutes until chicken is cooked through."
+
+  - step: 6
+    action: "While cooking, slice spring onion, grate carrot and cheese. Drain and mash half the black beans with a fork."
+
+  - step: 7
+    action: "Add mashed and whole black beans and grated carrot to the chicken mixture. Simmer until sauce is thick and reduced."
+
+  - step: 8
+    action: "Remove chicken from sauce and chop into bite-sized pieces, then return to the sauce."
+
+  - step: 9
+    action: "Transfer cooked wedges to an oven-proof dish. Top with the chicken and black bean mixture."
+
+  - step: 10
+    action: "Sprinkle grated cheese over the top and bake for 5-6 minutes until cheese is melted and golden."
+
+  - step: 11
+    action: "Garnish with sliced spring onion and serve immediately."

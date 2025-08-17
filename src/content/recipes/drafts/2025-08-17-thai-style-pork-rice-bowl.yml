@@ -1,0 +1,106 @@
+name: "Thai Style Pork Rice Bowl"
+description: "This Thai Style Pork Rice Bowl is a crowd pleaser and is one to get the family round the dinner table for. Super simple to make, and easily customised to suit the kids too."
+cuisine: "Thai"
+difficulty: "Medium"
+prep_time_minutes: 15
+cook_time_minutes: 20
+total_time_minutes: 35
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "basmati rice"
+    amount_base: 150
+    unit: "g"
+    notes: ""
+
+  - name: "echalion shallot"
+    amount_base: 1
+    unit: "whole"
+    notes: "chopped into small pieces"
+
+  - name: "garlic cloves"
+    amount_base: 2
+    unit: "whole"
+    notes: "grated or pressed"
+
+  - name: "red chilli"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "deseeded and finely chopped"
+
+  - name: "green beans"
+    amount_base: 150
+    unit: "g"
+    notes: "trimmed and chopped into thirds"
+
+  - name: "British pork mince"
+    amount_base: 240
+    unit: "g"
+    notes: ""
+
+  - name: "ketjap manis"
+    amount_base: 50
+    unit: "g"
+    notes: ""
+
+  - name: "soy sauce"
+    amount_base: 25
+    unit: "g"
+    notes: ""
+
+  - name: "fresh coriander"
+    amount_base: 1
+    unit: "bunch"
+    notes: "chopped"
+
+  - name: "water"
+    amount_base: 300
+    unit: "ml"
+    notes: "for rice"
+
+  - name: "vegetable oil"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt"
+    amount_base: 0.25
+    unit: "tsp"
+    notes: "for rice"
+
+instructions:
+  - step: 1
+    action: "Pour 300ml water into a medium saucepan. Stir in rice and 1/4 tsp salt. Bring to boil, then reduce heat to low and cover."
+
+  - step: 2
+    action: "Cook rice for 10 minutes, then remove from heat and let sit covered for 10 more minutes."
+
+  - step: 3
+    action: "While rice cooks, chop shallot into small pieces, grate garlic, deseed and finely chop red chilli, and trim green beans and chop into thirds."
+
+  - step: 4
+    action: "Heat oil in a large frying pan or wok over medium-high heat. Stir-fry green beans for 5-6 minutes until tender-crisp."
+
+  - step: 5
+    action: "Add pork mince to the pan and cook for 5-6 minutes, breaking it up with a wooden spoon until browned."
+
+  - step: 6
+    action: "Add chopped shallot, grated garlic, and chopped chilli to the pan. Cook for 2-3 minutes until fragrant."
+
+  - step: 7
+    action: "Return green beans to the pan. Add ketjap manis and soy sauce, stirring until everything is heated through."
+
+  - step: 8
+    action: "Chop the coriander and mix 2/3 of it into the pork mixture."
+
+  - step: 9
+    action: "Fluff the rice with a fork. Serve the pork mixture over the rice."
+
+  - step: 10
+    action: "Sprinkle the remaining coriander on top before serving."

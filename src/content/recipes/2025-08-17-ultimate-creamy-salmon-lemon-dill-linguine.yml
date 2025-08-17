@@ -1,0 +1,106 @@
+name: "Creamy Salmon Pasta"
+description: "Easy, tasty salmon with a creamy, lemon sauce"
+cuisine: "Italian"
+difficulty: "Medium"
+prep_time_minutes: 15
+cook_time_minutes: 20
+total_time_minutes: 35
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "garlic cloves"
+    amount_base: 2
+    unit: "whole"
+    notes: "grated"
+
+  - name: "fresh dill"
+    amount_base: 1
+    unit: "bunch"
+    notes: "chopped"
+
+  - name: "lemon"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "zested and juiced"
+
+  - name: "salmon fillets"
+    amount_base: 2
+    unit: "whole"
+    notes: ""
+
+  - name: "linguine"
+    amount_base: 180
+    unit: "g"
+    notes: ""
+
+  - name: "frozen peas"
+    amount_base: 120
+    unit: "g"
+    notes: ""
+
+  - name: "vegetable stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "crème fraîche"
+    amount_base: 150
+    unit: "g"
+    notes: ""
+
+  - name: "water"
+    amount_base: 100
+    unit: "ml"
+    notes: "for the sauce"
+
+  - name: "olive oil"
+    amount_base: 2
+    unit: "tbsp"
+    notes: ""
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C/200°C fan/gas mark 7."
+
+  - step: 2
+    action: "Grate the garlic, chop the dill, and zest the lemon. Set aside."
+
+  - step: 3
+    action: "Season salmon fillets with olive oil, salt, pepper, and lemon zest. Place on a baking tray."
+
+  - step: 4
+    action: "Roast salmon for 10-15 minutes until cooked through and flakes easily."
+
+  - step: 5
+    action: "Meanwhile, cook linguine in a large pot of salted boiling water for 12 minutes. Add peas in the final minute of cooking."
+
+  - step: 6
+    action: "In a large pan, sauté grated garlic in a little oil for 1 minute. Add vegetable stock paste and 100ml water. Simmer for 2 minutes."
+
+  - step: 7
+    action: "Stir crème fraîche, most of the chopped dill, and lemon juice into the sauce. Heat gently without boiling."
+
+  - step: 8
+    action: "Drain the pasta and peas, then add to the creamy sauce. Toss to combine."
+
+  - step: 9
+    action: "Flake the roasted salmon into large pieces and gently fold into the pasta."
+
+  - step: 10
+    action: "Serve immediately, sprinkled with the remaining dill."

@@ -1,0 +1,121 @@
+name: "Quick Butter Chicken Masala"
+description: "Looking for a quick and tasty midweek dinner option? Try cooking up our Quick Butter Chicken Masala in just 20 minutes for a delicious and speedy meal."
+cuisine: "Indian"
+difficulty: "Medium"
+prep_time_minutes: 5
+cook_time_minutes: 20
+total_time_minutes: 25
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "basmati rice"
+    amount_base: 150
+    unit: "g"
+    notes: ""
+
+  - name: "diced British chicken thigh"
+    amount_base: 260
+    unit: "g"
+    notes: ""
+
+  - name: "fresh ginger"
+    amount_base: 30
+    unit: "g"
+    notes: "peeled and halved"
+
+  - name: "garlic cloves"
+    amount_base: 2
+    unit: "whole"
+    notes: "minced"
+
+  - name: "tomato puree"
+    amount_base: 30
+    unit: "g"
+    notes: ""
+
+  - name: "North Indian style spice mix"
+    amount_base: 1
+    unit: "packet"
+    notes: "or equivalent spice blend"
+
+  - name: "mustard seeds"
+    amount_base: 1
+    unit: "tsp"
+    notes: ""
+
+  - name: "chicken stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "frozen peas"
+    amount_base: 120
+    unit: "g"
+    notes: ""
+
+  - name: "crème fraîche"
+    amount_base: 75
+    unit: "g"
+    notes: ""
+
+  - name: "sugar"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: ""
+
+  - name: "water"
+    amount_base: 100
+    unit: "ml"
+    notes: ""
+
+  - name: "butter"
+    amount_base: 20
+    unit: "g"
+    notes: ""
+
+  - name: "vegetable oil"
+    amount_base: 1
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "for rice water"
+
+instructions:
+  - step: 1
+    action: "Boil kettle. Peel and halve the ginger, setting aside one half for the rice."
+
+  - step: 2
+    action: "Cook basmati rice with half the ginger and salt in boiling water for 10-12 minutes until tender."
+
+  - step: 3
+    action: "Heat oil in a large pan over medium-high heat. Add diced chicken thigh and stir-fry until golden brown, about 5-6 minutes."
+
+  - step: 4
+    action: "Add tomato puree, North Indian spice mix, remaining ginger, mustard seeds, and minced garlic to the chicken. Cook for 1 minute until fragrant."
+
+  - step: 5
+    action: "Pour in sugar, water, and chicken stock paste. Stir well to combine."
+
+  - step: 6
+    action: "Simmer the sauce for 3-5 minutes until slightly thickened."
+
+  - step: 7
+    action: "Add frozen peas and cook for 1 minute until heated through."
+
+  - step: 8
+    action: "Stir in crème fraîche and butter until melted and well incorporated."
+
+  - step: 9
+    action: "Remove ginger pieces from the cooked rice and drain."
+
+  - step: 10
+    action: "Serve the butter chicken masala over the ginger rice immediately."

@@ -26,9 +26,17 @@ const { recipe, date } = Astro.props;
 		<p><strong>Total Time:</strong> {recipe.data.total_time_minutes} minutes</p>
 		<p><strong>Servings:</strong> {recipe.data.base_servings}</p>
 	</div>
-	
+
 	<div class="description">
 		<p>{recipe.data.description}</p>
+	</div>
+
+	<div>
+		{recipe.data.source && (
+			<p>
+				<strong>Source:</strong> <a href={recipe.data.source.url} target="_blank" rel="noopener noreferrer">{recipe.data.source.name}</a>
+			</p>
+		)}
 	</div>
 
 	<div class="ingredients">
@@ -57,59 +65,59 @@ const { recipe, date } = Astro.props;
 		font-style: italic;
 		margin-bottom: 1rem;
 	}
-	
+
 	.meta {
 		background: #f5f5f5;
 		padding: 1rem;
 		border-radius: 8px;
 		margin-bottom: 2rem;
 	}
-	
+
 	.meta p {
 		margin: 0.5rem 0;
 	}
-	
+
 	.description {
 		margin-bottom: 2rem;
 	}
-	
+
 	.ingredients, .instructions {
 		margin-bottom: 2rem;
 	}
-	
+
 	.ingredients h2, .instructions h2 {
 		border-bottom: 2px solid #333;
 		padding-bottom: 0.5rem;
 		margin-bottom: 1rem;
 	}
-	
+
 	.ingredients ul {
 		list-style-type: disc;
 		padding-left: 2rem;
 	}
-	
+
 	.ingredients li {
 		margin-bottom: 0.5rem;
 	}
-	
+
 	.notes {
 		color: #666;
 		font-style: italic;
 	}
-	
+
 	.instructions ol {
 		counter-reset: step-counter;
 		list-style: none;
 		padding-left: 0;
 	}
-	
+
 	.instructions li {
 		counter-increment: step-counter;
 		margin-bottom: 1rem;
 		padding-left: 3rem;
 		position: relative;
 	}
-	
+
 	.instructions li::before {
 		content: counter(step-counter);
 		position: absolute;

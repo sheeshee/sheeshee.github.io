@@ -1,0 +1,127 @@
+name: "Spicy Szechuan Pork Meatballs"
+description: "A customer favourite, this Spicy Szechuan Pork Meatballs is a tried-and-tested recipe that always wins with a crowd."
+cuisine: "Asian"
+difficulty: "Medium"
+prep_time_minutes: 15
+cook_time_minutes: 20
+total_time_minutes: 35
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "garlic cloves"
+    amount_base: 2
+    unit: "whole"
+    notes: "minced"
+
+  - name: "echalion shallot"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "sliced"
+
+  - name: "panko breadcrumbs"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "British pork mince"
+    amount_base: 240
+    unit: "g"
+    notes: ""
+
+  - name: "bell pepper"
+    amount_base: 1
+    unit: "whole"
+    notes: "sliced"
+
+  - name: "egg noodle nests"
+    amount_base: 2
+    unit: "whole"
+    notes: ""
+
+  - name: "Szechuan paste"
+    amount_base: 75
+    unit: "g"
+    notes: ""
+
+  - name: "sweet chilli sauce"
+    amount_base: 64
+    unit: "g"
+    notes: ""
+
+  - name: "soy sauce"
+    amount_base: 25
+    unit: "g"
+    notes: ""
+
+  - name: "ketjap manis"
+    amount_base: 25
+    unit: "g"
+    notes: ""
+
+  - name: "plain flour"
+    amount_base: 0.5
+    unit: "tbsp"
+    notes: "for dusting"
+
+  - name: "salt"
+    amount_base: 0.25
+    unit: "tsp"
+    notes: "for breadcrumbs"
+
+  - name: "water"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for breadcrumbs"
+
+  - name: "water"
+    amount_base: 75
+    unit: "ml"
+    notes: "for sauce"
+
+  - name: "vegetable oil"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for cooking"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C/200°C fan/gas mark 7. Bring a large saucepan of salted water to the boil for the noodles."
+
+  - step: 2
+    action: "Peel and grate the garlic. Halve, peel and thinly slice the shallot."
+
+  - step: 3
+    action: "In a large bowl, combine panko breadcrumbs with half the garlic, salt, and 2 tbsp water. Add the pork mince and mix well with your hands."
+
+  - step: 4
+    action: "Roll the pork mixture into 10 meatballs (5 per person). Place on a baking tray."
+
+  - step: 5
+    action: "Bake the meatballs for 12-15 minutes until cooked through and golden brown."
+
+  - step: 6
+    action: "Meanwhile, heat 1 tbsp oil in a large frying pan over medium-high heat. Add sliced shallots and fry until crispy and golden, about 3-4 minutes. Remove and set aside."
+
+  - step: 7
+    action: "Cook the egg noodles in the boiling water for 4 minutes. Drain and rinse with cold water to stop cooking. Set aside."
+
+  - step: 8
+    action: "Heat remaining oil in the same frying pan. Add sliced bell pepper and remaining garlic. Stir-fry for 2-3 minutes."
+
+  - step: 9
+    action: "Add Szechuan paste, sweet chilli sauce, soy sauce, ketjap manis, and 75ml water to the pan. Bring to a simmer."
+
+  - step: 10
+    action: "Add the cooked meatballs to the sauce and simmer for 2-3 minutes until heated through."
+
+  - step: 11
+    action: "Add the cooked noodles to the pan and toss to heat through, about 1 minute."
+
+  - step: 12
+    action: "Serve the noodles and meatballs in bowls, topped with crispy shallots."

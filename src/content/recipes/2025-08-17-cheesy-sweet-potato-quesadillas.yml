@@ -1,0 +1,123 @@
+name: "Sweet Potato Quesadillas"
+description: "Veggie quesadillas with beans and cheese"
+cuisine: "Mexican"
+difficulty: "Medium"
+prep_time_minutes: 15
+cook_time_minutes: 30
+total_time_minutes: 45
+
+source:
+  name: "HelloFresh"
+  url: "https://www.hellofresh.co.uk/recipes/cheesy-sweet-potato-quesadillas-634598b7973db117416d21e3"
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "sweet potato"
+    amount_base: 1
+    unit: "whole"
+    notes: "chopped into 1cm chunks"
+
+  - name: "medium tomato"
+    amount_base: 1
+    unit: "whole"
+    notes: "diced"
+
+  - name: "black beans"
+    amount_base: 400
+    unit: "g"
+    notes: "drained and rinsed, half mashed"
+
+  - name: "mature cheddar cheese"
+    amount_base: 90
+    unit: "g"
+    notes: "grated"
+
+  - name: "tomato puree"
+    amount_base: 30
+    unit: "g"
+    notes: ""
+
+  - name: "Mexican style spice mix"
+    amount_base: 2
+    unit: "tsp"
+    notes: ""
+
+  - name: "vegetable stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "plain taco tortillas"
+    amount_base: 6
+    unit: "whole"
+    notes: ""
+
+  - name: "wild rocket"
+    amount_base: 40
+    unit: "g"
+    notes: ""
+
+  - name: "soured cream"
+    amount_base: 75
+    unit: "g"
+    notes: ""
+
+  - name: "water"
+    amount_base: 150
+    unit: "ml"
+    notes: "for the beans"
+
+  - name: "olive oil"
+    amount_base: 3
+    unit: "tbsp"
+    notes: "divided for roasting and dressing"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C/200°C fan/gas mark 7."
+
+  - step: 2
+    action: "Chop sweet potato into 1cm chunks. Toss with oil, salt, and pepper, then roast on a baking tray for 15-20 minutes until tender."
+
+  - step: 3
+    action: "Meanwhile, dice the tomato. Drain and rinse black beans, then mash half of them with a fork."
+
+  - step: 4
+    action: "Grate the cheddar cheese and set aside."
+
+  - step: 5
+    action: "Heat a pan over medium heat. Add tomato puree and Mexican spice mix, cooking for 1 minute until fragrant."
+
+  - step: 6
+    action: "Add both mashed and whole black beans, vegetable stock paste, and 150ml water. Simmer for 5-8 minutes until thickened."
+
+  - step: 7
+    action: "Mix the roasted sweet potatoes into the bean mixture."
+
+  - step: 8
+    action: "Place the bean and sweet potato mixture on half of each tortilla, sprinkle with cheese, then fold into semi-circles."
+
+  - step: 9
+    action: "Arrange quesadillas on a baking tray and bake for 8-12 minutes until golden and cheese is melted."
+
+  - step: 10
+    action: "Meanwhile, prepare rocket salad by tossing with diced tomatoes and 1 tbsp olive oil. Season with salt and pepper."
+
+  - step: 11
+    action: "Serve the hot quesadillas with soured cream and the fresh rocket salad."

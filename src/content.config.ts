@@ -28,7 +28,7 @@ const projects = defineCollection({
 })
 
 const recipes = defineCollection({
-	loader: glob({ pattern: "**/*.yml", base: "./src/content/recipes" }),
+	loader: glob({ pattern: ["**/*.yml", "!**/drafts/**"], base: "./src/content/recipes"}),
 	schema: z.object({
 		name: z.string(),
 		description: z.string(),
@@ -49,6 +49,10 @@ const recipes = defineCollection({
 			step: z.number(),
 			action: z.string(),
 		})),
+		source: z.object({
+			name: z.string(),
+			url: z.string().url().optional(),
+		}).optional(),
 	})
 })
 

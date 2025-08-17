@@ -1,0 +1,121 @@
+name: "Sweet Potato Coconut Dal"
+description: "Our Sweet Potato Coconut Dal is a delicious veggie option that makes it easy to eat more veg in your diet and try something new!"
+cuisine: "Asian"
+difficulty: "Medium"
+prep_time_minutes: 15
+cook_time_minutes: 25
+total_time_minutes: 40
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "fresh ginger"
+    amount_base: 30
+    unit: "g"
+    notes: "peeled and grated"
+
+  - name: "sweet potato"
+    amount_base: 1
+    unit: "whole"
+    notes: "peeled and chopped into 2cm chunks"
+
+  - name: "lime"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "halved"
+
+  - name: "Sri Lankan style curry powder"
+    amount_base: 2
+    unit: "tsp"
+    notes: ""
+
+  - name: "tomato puree"
+    amount_base: 30
+    unit: "g"
+    notes: ""
+
+  - name: "coconut milk"
+    amount_base: 200
+    unit: "ml"
+    notes: ""
+
+  - name: "vegetable stock paste"
+    amount_base: 15
+    unit: "g"
+    notes: ""
+
+  - name: "red split lentils"
+    amount_base: 100
+    unit: "g"
+    notes: ""
+
+  - name: "super soft tortillas with whole wheat"
+    amount_base: 4
+    unit: "whole"
+    notes: "for cheat's chapati"
+
+  - name: "baby spinach"
+    amount_base: 100
+    unit: "g"
+    notes: ""
+
+  - name: "water"
+    amount_base: 300
+    unit: "ml"
+    notes: "for the dal"
+
+  - name: "vegetable oil"
+    amount_base: 1
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "butter"
+    amount_base: 20
+    unit: "g"
+    notes: "optional, for chapatis"
+
+instructions:
+  - step: 1
+    action: "Peel and grate the ginger. Peel the sweet potato and chop into 2cm chunks. Halve the lime."
+
+  - step: 2
+    action: "Heat oil in a large saucepan over medium heat. Add grated ginger, curry powder, and tomato puree. Cook for 1 minute until fragrant."
+
+  - step: 3
+    action: "Add water, coconut milk, and vegetable stock paste to the pan. Stir well to combine."
+
+  - step: 4
+    action: "Add sweet potato chunks and red split lentils to the pan. Season with salt and pepper."
+
+  - step: 5
+    action: "Bring to a simmer, then cover and cook for 20-25 minutes, stirring occasionally. Add more water if the dal becomes too dry."
+
+  - step: 6
+    action: "While the dal cooks, make the cheat's chapatis. Heat a dry frying pan over medium-high heat. Cook tortillas for 30 seconds on each side until warmed through."
+
+  - step: 7
+    action: "Transfer warmed tortillas to a plate. Optionally spread with butter, then cover with foil to keep warm."
+
+  - step: 8
+    action: "When the dal is ready, stir in the baby spinach until wilted, about 1 minute."
+
+  - step: 9
+    action: "Squeeze in lime juice and adjust seasoning with salt and pepper to taste."
+
+  - step: 10
+    action: "Serve the dal in bowls with the warm chapatis alongside for scooping."

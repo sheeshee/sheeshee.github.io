@@ -1,0 +1,100 @@
+name: "Oregano and Cranberry Sausage Burger"
+description: "This Oregano and Cranberry Sausage Burger is bursting full of flavours and makes the perfect dinner night option from HelloFresh."
+cuisine: "British"
+difficulty: "Medium"
+prep_time_minutes: 15
+cook_time_minutes: 25
+total_time_minutes: 40
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "potatoes"
+    amount_base: 450
+    unit: "g"
+    notes: "chopped into 2cm wedges"
+
+  - name: "onion"
+    amount_base: 1
+    unit: "whole"
+    notes: "sliced"
+
+  - name: "dried cranberries"
+    amount_base: 30
+    unit: "g"
+    notes: "chopped"
+
+  - name: "mature cheddar cheese"
+    amount_base: 30
+    unit: "g"
+    notes: "grated"
+
+  - name: "balsamic vinegar"
+    amount_base: 12
+    unit: "g"
+    notes: ""
+
+  - name: "British pork and oregano sausage meat"
+    amount_base: 225
+    unit: "g"
+    notes: ""
+
+  - name: "burger buns"
+    amount_base: 2
+    unit: "whole"
+    notes: ""
+
+  - name: "wild rocket"
+    amount_base: 40
+    unit: "g"
+    notes: ""
+
+  - name: "apple chutney"
+    amount_base: 2
+    unit: "tbsp"
+    notes: ""
+
+  - name: "olive oil"
+    amount_base: 3
+    unit: "tbsp"
+    notes: "divided for cooking and dressing"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C. Chop potatoes into 2cm wedges, drizzle with oil, season with salt and pepper, and roast for 25-35 minutes until golden."
+
+  - step: 2
+    action: "Meanwhile, slice onion and cook in a pan with oil until golden, about 8-10 minutes. Chop dried cranberries and grate cheese."
+
+  - step: 3
+    action: "Mix balsamic vinegar with 1 tbsp olive oil to make a dressing. Set aside."
+
+  - step: 4
+    action: "In a bowl, mix sausage meat, chopped cranberries, and half the cooked onion. Shape into 2 burger patties."
+
+  - step: 5
+    action: "Heat a pan over medium heat and fry burger patties for 5-6 minutes per side until cooked through and internal temperature reaches 70°C."
+
+  - step: 6
+    action: "Top burgers with remaining cooked onion and grated cheese. Cover to let cheese melt."
+
+  - step: 7
+    action: "Warm burger buns in the oven for 2-3 minutes. Toss rocket with balsamic dressing."
+
+  - step: 8
+    action: "Assemble burgers with apple chutney on the buns. Serve with potato wedges and dressed rocket salad."

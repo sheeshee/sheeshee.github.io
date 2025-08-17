@@ -1,10 +1,14 @@
 name: "Blue Cheese Cauliflower Mac and Cheese"
-description: "A delicious veggie option that makes it easy to eat more veg in your diet and try something new! Featuring roasted cauliflower, creamy cheese sauce, and crispy breadcrumb topping with a sriracha drizzle. From Hello Fresh."
+description: "Mac and cheese with some extra goodness: spinach, cauliflower and sriracha."
 cuisine: "British"
 difficulty: "Easy"
 prep_time_minutes: 15
 cook_time_minutes: 20
 total_time_minutes: 35
+
+source:
+  name: "HelloFresh"
+  url: "https://www.hellofresh.co.uk/recipes/blue-cheese-cauliflower-mac-and-cheese-637d01481ef09fb45a483b7e"
 
 # Base recipe is for 2 people, with scaling factors for other sizes
 base_servings: 2

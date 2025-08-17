@@ -1,0 +1,109 @@
+name: "Herby Parsley Chicken"
+description: "This Herby Parsley Chicken is bursting full of flavours and makes the perfect dinner night option from HelloFresh."
+cuisine: "Fusion"
+difficulty: "Medium"
+prep_time_minutes: 20
+cook_time_minutes: 25
+total_time_minutes: 45
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "flat leaf parsley"
+    amount_base: 1
+    unit: "bunch"
+    notes: "chopped"
+
+  - name: "skin-on British chicken breasts"
+    amount_base: 2
+    unit: "whole"
+    notes: ""
+
+  - name: "potatoes"
+    amount_base: 450
+    unit: "g"
+    notes: "chopped into 2cm chunks"
+
+  - name: "green beans"
+    amount_base: 150
+    unit: "g"
+    notes: "trimmed"
+
+  - name: "garlic cloves"
+    amount_base: 2
+    unit: "whole"
+    notes: "minced"
+
+  - name: "tomato puree"
+    amount_base: 30
+    unit: "g"
+    notes: ""
+
+  - name: "mango chutney"
+    amount_base: 40
+    unit: "g"
+    notes: ""
+
+  - name: "chopped kale"
+    amount_base: 100
+    unit: "g"
+    notes: ""
+
+  - name: "olive oil"
+    amount_base: 4
+    unit: "tbsp"
+    notes: "divided - 2 tbsp for marinade, 2 tbsp for cooking"
+
+  - name: "water"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for sauce"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C/200°C fan/gas mark 7."
+
+  - step: 2
+    action: "Chop flat leaf parsley and mix with 2 tbsp olive oil, salt, and pepper to create a marinade."
+
+  - step: 3
+    action: "Coat chicken breasts thoroughly in the parsley marinade and let rest for 10 minutes."
+
+  - step: 4
+    action: "Heat a large oven-safe pan over medium-high heat. Sear chicken skin-side down for 5-6 minutes until golden."
+
+  - step: 5
+    action: "Meanwhile, chop potatoes into 2cm chunks, toss with oil, season with salt and pepper, and arrange on a baking tray."
+
+  - step: 6
+    action: "Roast potatoes for 25-35 minutes, turning once, until golden and crispy."
+
+  - step: 7
+    action: "Transfer the seared chicken to the oven and roast on the top shelf for 18-25 minutes until cooked through."
+
+  - step: 8
+    action: "Heat a large pan and stir-fry green beans for 4-5 minutes until charred and tender-crisp. Steam briefly if needed."
+
+  - step: 9
+    action: "Mix tomato puree, mango chutney, and 2 tbsp water to make a sticky sauce. Toss with the roasted potatoes."
+
+  - step: 10
+    action: "Add chopped kale to the potato tray, drizzle with remaining oil, and return to oven for 3-4 minutes to crisp."
+
+  - step: 11
+    action: "Rest the chicken for 5 minutes, then slice. Combine the vegetables and serve with the sliced chicken."

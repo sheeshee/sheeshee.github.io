@@ -1,0 +1,132 @@
+name: "Ginger and Garlic Tofu Stew"
+description: "A vegetarian stew featuring roasted sweet potatoes, smoked tofu, and a flavorful coconut milk-based sauce"
+cuisine: "Fusion"
+difficulty: "Medium"
+prep_time_minutes: 5
+cook_time_minutes: 25
+total_time_minutes: 30
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "sweet potatoes"
+    amount_base: 2
+    unit: "whole"
+    notes: "chopped into 1cm chunks"
+
+  - name: "smoked tofu"
+    amount_base: 225
+    unit: "g"
+    notes: "chopped into 2cm cubes"
+
+  - name: "echalion shallot"
+    amount_base: 1
+    unit: "whole"
+    notes: "sliced"
+
+  - name: "garlic cloves"
+    amount_base: 2
+    unit: "whole"
+    notes: "grated"
+
+  - name: "red chilli"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "sliced, seeds removed for milder heat"
+
+  - name: "lime"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "zested and juiced"
+
+  - name: "ginger puree"
+    amount_base: 1
+    unit: "tsp"
+    notes: ""
+
+  - name: "tomato puree"
+    amount_base: 30
+    unit: "g"
+    notes: ""
+
+  - name: "coconut milk"
+    amount_base: 200
+    unit: "ml"
+    notes: ""
+
+  - name: "vegetable stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "baby spinach"
+    amount_base: 40
+    unit: "g"
+    notes: ""
+
+  - name: "soy sauce"
+    amount_base: 25
+    unit: "g"
+    notes: ""
+
+  - name: "water"
+    amount_base: 200
+    unit: "ml"
+    notes: ""
+
+  - name: "vegetable oil"
+    amount_base: 3
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C. Chop sweet potatoes into 1cm chunks, drizzle with oil, and season with salt and pepper."
+
+  - step: 2
+    action: "Roast sweet potatoes on the top shelf for 20-25 minutes, turning halfway through, until tender and golden."
+
+  - step: 3
+    action: "Meanwhile, chop tofu into 2cm cubes and pat dry with kitchen paper."
+
+  - step: 4
+    action: "Heat oil in a large pan and fry tofu until golden on all sides, about 6-8 minutes. Set aside."
+
+  - step: 5
+    action: "Prepare vegetables: slice shallot, grate garlic, slice chilli, and zest lime."
+
+  - step: 6
+    action: "In the same pan, sauté shallot for 3-4 minutes until softened."
+
+  - step: 7
+    action: "Add garlic, ginger puree, chopped chilli, and tomato puree. Cook for 1 minute until fragrant."
+
+  - step: 8
+    action: "Pour in coconut milk, water, and vegetable stock paste. Bring to a simmer and cook for 3-4 minutes."
+
+  - step: 9
+    action: "Stir in baby spinach until wilted. Remove from heat."
+
+  - step: 10
+    action: "Add lime juice and soy sauce to the stew."
+
+  - step: 11
+    action: "Gently stir in the roasted sweet potatoes and fried tofu."
+
+  - step: 12
+    action: "Serve in bowls, garnished with sliced chilli and lime zest."

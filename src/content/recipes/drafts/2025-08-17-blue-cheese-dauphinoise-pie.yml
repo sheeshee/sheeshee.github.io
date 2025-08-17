@@ -1,0 +1,117 @@
+name: "Blue Cheese Dauphinoise Pie"
+description: "Our Blue Cheese Dauphinoise Pie is a delicious veggie option that makes it easy to eat more veg in your diet and try something new!"
+cuisine: "Fusion"
+difficulty: "Medium"
+prep_time_minutes: 20
+cook_time_minutes: 25
+total_time_minutes: 45
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "puff pastry sheet"
+    amount_base: 0.75
+    unit: "sheet"
+    notes: ""
+
+  - name: "potatoes"
+    amount_base: 450
+    unit: "g"
+    notes: "sliced into 1cm rounds"
+
+  - name: "leek"
+    amount_base: 1
+    unit: "whole"
+    notes: "sliced"
+
+  - name: "garlic cloves"
+    amount_base: 2
+    unit: "whole"
+    notes: "grated"
+
+  - name: "crème fraîche"
+    amount_base: 150
+    unit: "g"
+    notes: ""
+
+  - name: "vegetable stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "grated hard Italian style cheese"
+    amount_base: 25
+    unit: "g"
+    notes: ""
+
+  - name: "crumbled blue cheese"
+    amount_base: 30
+    unit: "g"
+    notes: ""
+
+  - name: "green beans"
+    amount_base: 150
+    unit: "g"
+    notes: "trimmed"
+
+  - name: "potato cooking water"
+    amount_base: 75
+    unit: "ml"
+    notes: "reserved"
+
+  - name: "olive oil"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C/200°C fan/gas mark 7."
+
+  - step: 2
+    action: "Bring a large pot of salted water to boil. Slice potatoes into 1cm rounds."
+
+  - step: 3
+    action: "Simmer potato slices for 8-12 minutes until tender. Reserve 75ml cooking water, then drain potatoes."
+
+  - step: 4
+    action: "Meanwhile, slice the leek and grate the garlic cloves."
+
+  - step: 5
+    action: "Heat oil in a large pan and sauté leek until soft, about 5 minutes. Add half the grated garlic and cook for 1 minute."
+
+  - step: 6
+    action: "Add crème fraîche, vegetable stock paste, reserved potato water, and Italian cheese to the pan. Stir well."
+
+  - step: 7
+    action: "Stir in the blue cheese and season with salt and pepper."
+
+  - step: 8
+    action: "Layer the cooked potato slices in an ovenproof dish, then pour the creamy sauce over top."
+
+  - step: 9
+    action: "Cover with puff pastry, pressing edges to seal. Make a small steam hole in the center."
+
+  - step: 10
+    action: "Bake for 20-25 minutes until the pastry is golden brown."
+
+  - step: 11
+    action: "While pie bakes, stir-fry green beans in a hot pan for 4-5 minutes. Add remaining garlic and cook for 1 minute more."
+
+  - step: 12
+    action: "Serve the pie hot with the garlicky green beans on the side."

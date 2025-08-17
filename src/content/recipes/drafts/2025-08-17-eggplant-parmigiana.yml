@@ -1,0 +1,134 @@
+name: "Eggplant Parmigiana"
+description: "There's a little labour involved in this. But you'll be rewarded with one of the all-time greatest vegetarian comfort foods known to mankind!"
+cuisine: "Italian"
+difficulty: "Hard"
+prep_time_minutes: 40
+cook_time_minutes: 60
+total_time_minutes: 100
+
+# Base recipe is for 8-10 people, with scaling factors for other sizes
+base_servings: 8
+scaling:
+  4: 0.5
+  6: 0.75
+  8: 1.0
+  10: 1.25
+
+ingredients:
+  - name: "large eggplants"
+    amount_base: 1800
+    unit: "g"
+    notes: "sliced lengthways 8mm thick"
+
+  - name: "olive oil"
+    amount_base: 60
+    unit: "ml"
+    notes: "for brushing"
+
+  - name: "parmesan cheese"
+    amount_base: 150
+    unit: "g"
+    notes: "finely grated"
+
+  - name: "fresh basil leaves"
+    amount_base: 50
+    unit: "g"
+    notes: "loosely packed"
+
+  - name: "mozzarella cheese"
+    amount_base: 150
+    unit: "g"
+    notes: "shredded"
+
+  - name: "extra virgin olive oil"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for sauce"
+
+  - name: "onion"
+    amount_base: 1
+    unit: "whole"
+    notes: "finely diced"
+
+  - name: "garlic cloves"
+    amount_base: 5
+    unit: "whole"
+    notes: "finely minced"
+
+  - name: "tomato passata"
+    amount_base: 600
+    unit: "ml"
+    notes: ""
+
+  - name: "canned crushed tomatoes"
+    amount_base: 400
+    unit: "g"
+    notes: ""
+
+  - name: "white sugar"
+    amount_base: 1.5
+    unit: "tsp"
+    notes: ""
+
+  - name: "fresh oregano"
+    amount_base: 1.5
+    unit: "tbsp"
+    notes: ""
+
+  - name: "water"
+    amount_base: 250
+    unit: "ml"
+    notes: ""
+
+  - name: "salt"
+    amount_base: 0.75
+    unit: "tsp"
+    notes: ""
+
+  - name: "black pepper"
+    amount_base: 0.25
+    unit: "tsp"
+    notes: ""
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C/430°F. Line three large trays with baking paper."
+
+  - step: 2
+    action: "Slice eggplants lengthways into 8mm thick slices. Brush both sides with olive oil."
+
+  - step: 3
+    action: "Arrange eggplant slices on prepared trays and bake for 35-45 minutes, turning halfway, until browning and tender."
+
+  - step: 4
+    action: "Remove eggplant from oven and let cool on trays."
+
+  - step: 5
+    action: "Meanwhile, make tomato sauce. Heat extra virgin olive oil in a large pan and sauté diced onion and minced garlic until softened, about 5 minutes."
+
+  - step: 6
+    action: "Add tomato passata, crushed tomatoes, water, oregano, and sugar to the pan. Bring to a simmer."
+
+  - step: 7
+    action: "Simmer sauce for 30-40 minutes, stirring occasionally, until thickened. Season with salt and pepper."
+
+  - step: 8
+    action: "Reduce oven temperature to 180°C/350°F."
+
+  - step: 9
+    action: "Spread a layer of tomato sauce in the bottom of a large baking dish."
+
+  - step: 10
+    action: "Layer half the eggplant slices over the sauce, overlapping slightly."
+
+  - step: 11
+    action: "Spread half the remaining sauce over eggplant, sprinkle with half the parmesan and half the basil leaves."
+
+  - step: 12
+    action: "Repeat layering with remaining eggplant, sauce, and parmesan. Top with mozzarella cheese."
+
+  - step: 13
+    action: "Bake for 25-30 minutes until golden and bubbling. Let rest for 10 minutes before serving."
+
+  - step: 14
+    action: "Garnish with remaining fresh basil leaves before serving."

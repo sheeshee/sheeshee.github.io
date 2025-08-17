@@ -1,0 +1,101 @@
+name: "Easy Mashed Potato Cakes"
+description: "Super easy potato cakes flavoured with spring onions, parsley and chives"
+cuisine: "English"
+difficulty: "Easy"
+prep_time_minutes: 20
+cook_time_minutes: 20
+total_time_minutes: 40
+
+# Base recipe is for 10 cakes, with scaling factors for other sizes
+base_servings: 4
+scaling:
+  2: 0.5
+  4: 1.0
+  6: 1.5
+  8: 2.0
+
+ingredients:
+  - name: "potatoes"
+    amount_base: 400
+    unit: "g"
+    notes: "Maris Piper or Russet, or leftover mashed potato"
+
+  - name: "plain flour"
+    amount_base: 75
+    unit: "g"
+    notes: "plus extra for dusting"
+
+  - name: "butter"
+    amount_base: 1
+    unit: "tsp"
+    notes: ""
+
+  - name: "spring onions"
+    amount_base: 2
+    unit: "whole"
+    notes: "finely chopped"
+
+  - name: "fresh parsley"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "chopped"
+
+  - name: "fresh chives"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "chopped"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "or to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "freshly ground, to taste"
+
+  - name: "sunflower oil"
+    amount_base: 1
+    unit: "tbsp"
+    notes: "for frying"
+
+instructions:
+  - step: 1
+    action: "Peel potatoes and chop into large chunks. Place in a pot of cold water."
+
+  - step: 2
+    action: "Bring to a boil and cook until fork-tender, about 15-20 minutes."
+
+  - step: 3
+    action: "Drain the potatoes well and let them steam for a minute. Add butter and mash until smooth."
+
+  - step: 4
+    action: "Allow the mashed potatoes to cool to room temperature."
+
+  - step: 5
+    action: "Add flour to the cooled mashed potatoes and mix well until combined."
+
+  - step: 6
+    action: "Mix in chopped spring onions, parsley, chives, salt, and pepper until evenly distributed."
+
+  - step: 7
+    action: "Flour your work surface and rolling pin generously."
+
+  - step: 8
+    action: "Form the potato mixture into a ball and place on the floured surface."
+
+  - step: 9
+    action: "Roll out the mixture to about 1cm (½ inch) thick."
+
+  - step: 10
+    action: "Cut into circles or desired shapes using a cookie cutter or glass."
+
+  - step: 11
+    action: "Heat sunflower oil in a non-stick pan over medium heat."
+
+  - step: 12
+    action: "Fry the potato cakes for 2 minutes on each side until golden brown and crispy."
+
+  - step: 13
+    action: "Drain on kitchen paper to remove excess oil before serving."

@@ -1,0 +1,119 @@
+name: "Pronto Bacon Linguine"
+description: "This Pronto Bacon Linguine is a crowd pleaser and is one to get the family round the dinner table for."
+cuisine: "Italian"
+difficulty: "Easy"
+prep_time_minutes: 5
+cook_time_minutes: 15
+total_time_minutes: 20
+
+base_servings: 2
+scaling:
+  2: 1.0
+  4: 2.0
+
+ingredients:
+  - name: "British smoked bacon lardons"
+    amount_base: 90
+    unit: "g"
+    notes: ""
+
+  - name: "echalion shallot"
+    amount_base: 1
+    unit: "whole"
+    notes: "halved, peeled and thinly sliced"
+
+  - name: "sliced mushrooms"
+    amount_base: 120
+    unit: "g"
+    notes: ""
+
+  - name: "courgette"
+    amount_base: 1
+    unit: "whole"
+    notes: "trimmed, quartered lengthways and chopped into small pieces"
+
+  - name: "garlic clove"
+    amount_base: 1
+    unit: "whole"
+    notes: "peeled and grated"
+
+  - name: "linguine"
+    amount_base: 180
+    unit: "g"
+    notes: ""
+
+  - name: "vegetable stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "Italian style herbs"
+    amount_base: 1
+    unit: "tsp"
+    notes: ""
+
+  - name: "creme fraiche"
+    amount_base: 150
+    unit: "g"
+    notes: ""
+
+  - name: "grated hard Italian style cheese"
+    amount_base: 40
+    unit: "g"
+    notes: ""
+
+  - name: "olive oil"
+    amount_base: 1
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "for pasta water"
+
+instructions:
+  - step: 1
+    action: "Bring a large saucepan of water to the boil with 1/2 tsp salt for the pasta."
+
+  - step: 2
+    action: "Heat a drizzle of oil in a large frying pan on medium-high heat."
+
+  - step: 3
+    action: "Add bacon lardons and cook until golden, 3-4 minutes."
+
+  - step: 4
+    action: "Halve, peel and thinly slice the shallot."
+
+  - step: 5
+    action: "Trim the courgette, quarter lengthways and chop into small pieces."
+
+  - step: 6
+    action: "Peel and grate the garlic."
+
+  - step: 7
+    action: "Lower heat and add shallot, mushrooms and courgette to lardons."
+
+  - step: 8
+    action: "Cook until vegetables are softened and starting to brown, 4-5 minutes."
+
+  - step: 9
+    action: "Add garlic and cook until fragrant, 1 minute."
+
+  - step: 10
+    action: "Add the linguine to the boiling water and cook according to package instructions until al dente."
+
+  - step: 11
+    action: "Add vegetable stock paste, Italian herbs and 100ml water to the pan. Stir well."
+
+  - step: 12
+    action: "Add creme fraiche and bring to a gentle simmer."
+
+  - step: 13
+    action: "Drain the pasta, reserving a little pasta water."
+
+  - step: 14
+    action: "Add the drained pasta to the sauce and toss to combine, adding pasta water if needed."
+
+  - step: 15
+    action: "Serve immediately topped with grated cheese."

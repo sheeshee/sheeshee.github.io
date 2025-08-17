@@ -1,0 +1,103 @@
+name: "Garlic Portobello Mushroom Naanizza"
+description: "Looking for a quick and tasty midweek dinner option? Try cooking up our Garlic Portobello Mushroom Naanizza in just 20 minutes"
+cuisine: "Fusion"
+difficulty: "Medium"
+prep_time_minutes: 10
+cook_time_minutes: 10
+total_time_minutes: 20
+
+base_servings: 2
+scaling:
+  2: 1.0
+  4: 2.0
+
+ingredients:
+  - name: "portobello mushrooms"
+    amount_base: 2
+    unit: "whole"
+    notes: "sliced"
+
+  - name: "garlic clove"
+    amount_base: 1
+    unit: "whole"
+    notes: "grated"
+
+  - name: "mozzarella"
+    amount_base: 125
+    unit: "g"
+    notes: "drained and torn into pieces"
+
+  - name: "medium tomatoes"
+    amount_base: 2
+    unit: "whole"
+    notes: "cut into 1cm pieces"
+
+  - name: "fresh pesto"
+    amount_base: 50
+    unit: "g"
+    notes: "mixed with olive oil"
+
+  - name: "plain naans"
+    amount_base: 2
+    unit: "whole"
+    notes: ""
+
+  - name: "wild rocket"
+    amount_base: 20
+    unit: "g"
+    notes: "for salad"
+
+  - name: "balsamic glaze"
+    amount_base: 12
+    unit: "g"
+    notes: "for serving"
+
+  - name: "olive oil"
+    amount_base: 1
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt and pepper"
+    amount_base: 1
+    unit: "pinch"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 240°C/220°C fan/gas mark 9."
+
+  - step: 2
+    action: "Slice portobello mushrooms and grate garlic."
+
+  - step: 3
+    action: "Fry mushrooms in oil, season with salt and pepper, cook 6-8 minutes until tender."
+
+  - step: 4
+    action: "Add garlic and fry for 1 minute until fragrant."
+
+  - step: 5
+    action: "Drain and pat dry mozzarella, then tear into pieces."
+
+  - step: 6
+    action: "Cut tomatoes into 1cm pieces."
+
+  - step: 7
+    action: "Mix pesto with a little olive oil."
+
+  - step: 8
+    action: "Place naans on baking tray."
+
+  - step: 9
+    action: "Spread pesto on naans, leaving 1cm border around edges."
+
+  - step: 10
+    action: "Top with cooked mushrooms and mozzarella pieces."
+
+  - step: 11
+    action: "Bake 6-8 minutes until cheese melts and naans are crispy."
+
+  - step: 12
+    action: "Mix rocket and tomatoes in a bowl for salad."
+
+  - step: 13
+    action: "Serve naanizzas with salad and drizzle with balsamic glaze."

@@ -1,0 +1,112 @@
+name: "Hoisin Beef"
+description: "This Hoisin Beef is a crowd pleaser and is one to get the family round the dinner table for. Super simple to make, and easily customised to suit the kids too."
+cuisine: "Asian"
+difficulty: "Medium"
+prep_time_minutes: 5
+cook_time_minutes: 25
+total_time_minutes: 30
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "pak choi"
+    amount_base: 1
+    unit: "whole"
+    notes: "trimmed and sliced widthways"
+
+  - name: "green beans"
+    amount_base: 80
+    unit: "g"
+    notes: "trimmed and cut into thirds"
+
+  - name: "garlic clove"
+    amount_base: 1
+    unit: "whole"
+    notes: "peeled and grated"
+
+  - name: "lime"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "zested and halved"
+
+  - name: "basmati rice"
+    amount_base: 150
+    unit: "g"
+    notes: ""
+
+  - name: "British beef mince"
+    amount_base: 240
+    unit: "g"
+    notes: ""
+
+  - name: "Thai style spice blend"
+    amount_base: 1
+    unit: "tsp"
+    notes: "contains sesame"
+
+  - name: "chicken stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "hoisin sauce"
+    amount_base: 64
+    unit: "g"
+    notes: "contains soya"
+
+  - name: "honey"
+    amount_base: 15
+    unit: "g"
+    notes: ""
+
+  - name: "water"
+    amount_base: 300
+    unit: "ml"
+    notes: "for rice"
+
+  - name: "water"
+    amount_base: 100
+    unit: "ml"
+    notes: "for beef"
+
+  - name: "vegetable oil"
+    amount_base: 1
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt"
+    amount_base: 0.25
+    unit: "tsp"
+    notes: "for rice"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Trim pak choi and slice widthways. Trim green beans and cut into thirds. Peel and grate garlic. Zest and halve lime."
+
+  - step: 2
+    action: "Add rice to saucepan with 300ml water and 1/4 tsp salt. Bring to boil, then reduce heat and cover. Cook 10 minutes, then remove from heat and let sit 10 more minutes."
+
+  - step: 3
+    action: "Heat pan over medium-high heat. Add beef mince and fry for 5-6 minutes until browned, breaking up the meat while cooking. Drain excess fat and season with salt and pepper."
+
+  - step: 4
+    action: "Lower heat and add pak choi and green beans to the beef. Cook for 4-5 minutes until softened."
+
+  - step: 5
+    action: "Add grated garlic, Thai spice blend, and chicken stock paste. Add 100ml water and simmer for 4-5 minutes until liquid reduces."
+
+  - step: 6
+    action: "Stir in hoisin sauce, honey, and lime juice. Taste and adjust seasoning."
+
+  - step: 7
+    action: "Fluff the rice with a fork and serve the hoisin beef over the rice."

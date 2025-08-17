@@ -1,0 +1,123 @@
+name: "Creamy Spiced Lentil Curry"
+description: "Looking for a quick and tasty midweek dinner option? Try cooking up our Creamy Spiced Lentil Curry in just 20 minutes for a delicious and speedy meal."
+cuisine: "Fusion"
+difficulty: "Medium"
+prep_time_minutes: 5
+cook_time_minutes: 15
+total_time_minutes: 20
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "cauliflower florets"
+    amount_base: 300
+    unit: "g"
+    notes: ""
+
+  - name: "diced butternut squash"
+    amount_base: 300
+    unit: "g"
+    notes: ""
+
+  - name: "ground cumin"
+    amount_base: 1
+    unit: "tsp"
+    notes: ""
+
+  - name: "baby spinach"
+    amount_base: 100
+    unit: "g"
+    notes: ""
+
+  - name: "red onion"
+    amount_base: 1
+    unit: "whole"
+    notes: "chopped"
+
+  - name: "garlic clove"
+    amount_base: 1
+    unit: "whole"
+    notes: "grated"
+
+  - name: "fresh coriander"
+    amount_base: 1
+    unit: "bunch"
+    notes: "chopped"
+
+  - name: "lime"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "halved"
+
+  - name: "canned lentils"
+    amount_base: 400
+    unit: "g"
+    notes: "drained and rinsed"
+
+  - name: "Zanzibar style curry powder"
+    amount_base: 1
+    unit: "tsp"
+    notes: ""
+
+  - name: "coconut milk"
+    amount_base: 200
+    unit: "ml"
+    notes: ""
+
+  - name: "vegetable stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "water"
+    amount_base: 50
+    unit: "ml"
+    notes: ""
+
+  - name: "olive oil"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for roasting"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 210°C. Line a baking tray with parchment paper."
+
+  - step: 2
+    action: "Toss cauliflower florets and diced butternut squash with ground cumin, olive oil, salt, and pepper. Roast for 18 minutes until tender and golden."
+
+  - step: 3
+    action: "While vegetables roast, prepare other ingredients: chop red onion, grate garlic, roughly chop coriander, halve lime, and drain and rinse lentils."
+
+  - step: 4
+    action: "Heat a large pan over medium heat. Add chopped onion and cook for 3-4 minutes until softened."
+
+  - step: 5
+    action: "Add grated garlic and Zanzibar curry powder to the pan. Cook for 1 minute until fragrant."
+
+  - step: 6
+    action: "Pour in coconut milk, vegetable stock paste, water, and drained lentils. Bring to a simmer and cook for 4-5 minutes."
+
+  - step: 7
+    action: "Add baby spinach to the curry and stir until wilted, about 1 minute."
+
+  - step: 8
+    action: "When vegetables are roasted, add them to the lentil curry. Stir in most of the chopped coriander and squeeze in lime juice."
+
+  - step: 9
+    action: "Serve the curry in bowls, garnished with remaining coriander and lime wedges on the side."

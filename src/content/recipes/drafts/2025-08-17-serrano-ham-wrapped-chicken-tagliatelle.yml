@@ -1,0 +1,118 @@
+name: "Serrano Ham Wrapped Chicken Breast on Tagliatelle"
+description: "A luxurious dinner night option, made with premium ingredients for a real taste of luxury at home!"
+cuisine: "British"
+difficulty: "Medium"
+prep_time_minutes: 15
+cook_time_minutes: 25
+total_time_minutes: 40
+
+# Base recipe is for 2 people, with scaling factors for other sizes
+base_servings: 2
+scaling:
+  2: 1.0
+  3: 1.5
+  4: 2.0
+
+ingredients:
+  - name: "Serrano ham slices"
+    amount_base: 4
+    unit: "whole"
+    notes: ""
+
+  - name: "British chicken breasts"
+    amount_base: 2
+    unit: "whole"
+    notes: ""
+
+  - name: "fresh tarragon"
+    amount_base: 0.5
+    unit: "bunch"
+    notes: ""
+
+  - name: "baby plum tomatoes"
+    amount_base: 125
+    unit: "g"
+    notes: ""
+
+  - name: "lemon"
+    amount_base: 0.5
+    unit: "whole"
+    notes: "zested and juiced"
+
+  - name: "garlic clove"
+    amount_base: 1
+    unit: "whole"
+    notes: "minced"
+
+  - name: "wild rocket"
+    amount_base: 40
+    unit: "g"
+    notes: ""
+
+  - name: "walnuts"
+    amount_base: 40
+    unit: "g"
+    notes: ""
+
+  - name: "fresh tagliatelle"
+    amount_base: 200
+    unit: "g"
+    notes: ""
+
+  - name: "chicken stock paste"
+    amount_base: 10
+    unit: "g"
+    notes: ""
+
+  - name: "unsalted butter"
+    amount_base: 20
+    unit: "g"
+    notes: ""
+
+  - name: "pasta cooking water"
+    amount_base: 200
+    unit: "ml"
+    notes: "reserved"
+
+  - name: "olive oil"
+    amount_base: 2
+    unit: "tbsp"
+    notes: "for cooking"
+
+  - name: "salt"
+    amount_base: 1
+    unit: "tsp"
+    notes: "to taste"
+
+  - name: "black pepper"
+    amount_base: 0.5
+    unit: "tsp"
+    notes: "to taste"
+
+instructions:
+  - step: 1
+    action: "Preheat oven to 220°C. Season chicken breasts with salt and pepper, then wrap each breast in 2 slices of Serrano ham."
+
+  - step: 2
+    action: "Heat oil in an oven-proof pan. Sear the ham-wrapped chicken for 2-3 minutes on each side until golden."
+
+  - step: 3
+    action: "Transfer to oven and roast for 25-30 minutes until chicken is cooked through and juices run clear."
+
+  - step: 4
+    action: "Meanwhile, make pesto by blending rocket, tarragon, walnuts, lemon zest, and lemon juice until smooth. Season with salt and pepper."
+
+  - step: 5
+    action: "In the last 8-10 minutes of chicken cooking, add baby plum tomatoes to the oven tray to roast alongside."
+
+  - step: 6
+    action: "Cook fresh tagliatelle in a large pot of salted boiling water for 3-4 minutes until al dente. Reserve 200ml pasta water before draining."
+
+  - step: 7
+    action: "In a large pan, combine minced garlic, reserved pasta water, chicken stock paste, prepared pesto, and butter. Heat gently to create a sauce."
+
+  - step: 8
+    action: "Add drained pasta to the sauce and toss to coat evenly."
+
+  - step: 9
+    action: "Slice the ham-wrapped chicken and serve over the tagliatelle with roasted tomatoes on the side."
