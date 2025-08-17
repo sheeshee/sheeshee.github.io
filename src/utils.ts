@@ -25,7 +25,7 @@ export function slugFromFilename(filename: String){
 }
 
 
-export function compareDateFromFilename<T extends 'thoughts' | 'projects' | 'creativeWriting'>(
+export function compareDateFromFilename<T extends 'thoughts' | 'projects' | 'creativeWriting' | 'recipes'>(
   a: CollectionEntry<T>,
   b: CollectionEntry<T>
 ): number {
